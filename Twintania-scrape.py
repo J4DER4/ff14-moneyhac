@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-server = "Phoenix"
+server = "Shiva"
 itemnbr = str(24888)
 targeturl = "https://universalis.app/market/" + itemnbr
 
@@ -15,12 +15,12 @@ c = r.get(targeturl)
 soup = BeautifulSoup(c.content, 'html.parser')
 print(soup.title)
 
-
 # ITEM NAME
 itemname = soup.find('div', class_="item_info")
 
 # CURRENT DATA
 data = soup.find('div', class_="tab-page tab-cw open")
+
 #price = soup.itemprice.find_all("td", class_="price-current")
 
 qty = "NONE"
@@ -40,6 +40,8 @@ for entry in data:
         #History
     if(entry.find('div', class_="cw-table cw-history")):
         history = entry.find('div', class_="cw-history")
+    if (entry.find("td", class_="price-date")):
+        h_date = (entry.find("td", class_="price-date"))
 
 #History
 
@@ -57,8 +59,7 @@ for entry in history:
     #total price
     if(entry.find("td", class_="price-total")):
         h_price_total = (entry.find("td", class_="price-total"))
-    if (entry.find("td", class_="price-date")):
-        h_date = (entry.find("td", class_="price-date"))
+
 
 
 
@@ -67,15 +68,7 @@ for entry in history:
 
 
 # OUTPUT
-print(server)
 print(itemname.text)
-print(price_single.text)
-print(qty.text)
-print(price_total.text)
-
-print("History")
-
-print(h_price_single.text)
-print(h_qty.text)
-print(h_price_total.text)
-print(h_date.text)
+name = itemname.text.split()
+result = " ". join(name[1:])
+print(result)
