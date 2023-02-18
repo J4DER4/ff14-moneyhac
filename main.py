@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+
+
 server = "Phoenix"
 r = requests.Session()
 r.cookies.update({"mogboard_server" : server, "mogboard_last_selected_server": server})
@@ -7,7 +9,7 @@ c = r.get("https://universalis.app/market/24888")
 
 #print(r)
 soup = BeautifulSoup(c.content, 'html.parser')
-print(soup.title)
+#print(soup.title)
 
 
 # ITEM NAME
@@ -25,3 +27,4 @@ for entry in itemprice:
 #price = lines = itemprice.find_all("price-current")
 #print(itemprice.text)
 print(price.text)
+
