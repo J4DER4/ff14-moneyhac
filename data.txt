@@ -1,0 +1,2 @@
+['Fire Shard', '52', '150', '7,718', '45', '100', '4,500', '3 hours ago', 'NO HQ', 'NO HQ', 'NO HQ', 'NO HQ', '52', '150', 7800.0, 'Twintania']
+['Ice Shard', '69', '150', '10,238', '68', '3,000', '204,000', '22 minutes ago', 'NO HQ', 'NO HQ', 'NO HQ', 'NO HQ', '66', '400', 26400.0, 'Raiden']

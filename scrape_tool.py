@@ -91,7 +91,7 @@ def scrape(server, itemnumber):
             data_list.append(hqqty)
 
             # HQ TOTAL
-            data_list.append(float(hqqty) * float(hqprice.replace(",", "")))
+            data_list.append(float(hqqty).replace(",", "") * float(hqprice).replace(",", ""))
 
             #HQ SERVER
             hqserver = hq.find(class_="cheapest_price_info").text.split()[1]
@@ -127,7 +127,7 @@ def scrape(server, itemnumber):
             data_list.append(nqqty)
 
             #NQ TOTAL
-            data_list.append(float(nqqty)*float(nqprice.replace(",", "")))
+            data_list.append(float(nqqty.replace(",", ""))*float(nqprice.replace(",", "")))
 
 
             #NQ SERVER
@@ -137,10 +137,10 @@ def scrape(server, itemnumber):
 
     except AttributeError:
         # NO NQ VARIANT OR NO OUT OF STOCK
-        print("NO NQ")
-        print("NO NQ")
-        print("NO NQ")
-        print("NO NQ")
+        data_list.append("NO HQ")
+        data_list.append("NO HQ")
+        data_list.append("NO HQ")
+        data_list.append("NO HQ")
 
     return data_list
 
@@ -166,9 +166,4 @@ def scrape(server, itemnumber):
 
     # IF NO LISTINGS -> "No listings" x 3
     # IF NO HISTORY -> "No history" x 4
-start = time.time()
-print(scrape("Shiva", "5830"))
-print(scrape("Shiva", "5831"))
-print(scrape("Shiva", "5834"))
-end = time.time()
-print(end - start)
+

@@ -68,7 +68,6 @@ for entry in history:
 
 
 # OUTPUT
-print(itemname.text)
-name = itemname.text.split()
-result = " ". join(name[1:])
-print(result)
+nqqty = 3
+nqprice = "1,000"
+print((float(nqqty)*float(nqprice.replace(",", ""))))
