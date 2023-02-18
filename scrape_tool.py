@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-
+import time
 server = "Phoenix"
 itemnbr = str(24888)
 
@@ -71,6 +71,77 @@ def scrape(server, itemnumber):
         data_list.append('No history')
         data_list.append('No history')
 
+    #EUROPE
+
+    #HIGH QUALITY
+    hqqty = "NONE"
+    hqprice = "NONE"
+    hqserver = "NONE"
+
+    hq = soup.select_one('div.cheapest:-soup-contains("Cheapest HQ")')
+    hq = hq.find("div", class_="cheapest_price")
+    try:
+        if hq.find(class_="cheapest_value"):
+            #HQ PRICE
+            hqprice = hq.find(class_="cheapest_value").text.strip()
+            data_list.append(hqprice)
+
+            # HQ QTY
+            hqqty = hq.find("em").text.split()[0]
+            data_list.append(hqqty)
+
+            # HQ TOTAL
+            data_list.append(float(hqqty) * float(hqprice.replace(",", "")))
+
+            #HQ SERVER
+            hqserver = hq.find(class_="cheapest_price_info").text.split()[1]
+            data_list.append(hqserver)
+
+
+
+    except AttributeError:
+        #NO HQ VARIANT OR OUT OF STOCK
+        data_list.append("NO HQ")
+        data_list.append("NO HQ")
+        data_list.append("NO HQ")
+        data_list.append("NO HQ")
+
+    #NQ QTY
+    nqqty = "NONE"
+    nqprice = "NONE"
+    nqserver = "NONE"
+
+
+
+    nq = soup.select_one('div.cheapest:-soup-contains("Cheapest HQ")+ .cheapest')
+    nq = nq.find("div", class_="cheapest_price")
+
+    try:
+        if nq.find(class_="cheapest_value"):
+            #NQ PRICE
+            nqprice = nq.find(class_="cheapest_value").text.strip()
+            data_list.append(nqprice)
+
+            # NQ QTY
+            nqqty = nq.find("em").text.split()[0]
+            data_list.append(nqqty)
+
+            #NQ TOTAL
+            data_list.append(float(nqqty)*float(nqprice.replace(",", "")))
+
+
+            #NQ SERVER
+            nqserver = nq.find(class_="cheapest_price_info").text.split()[1]
+            data_list.append(nqserver)
+
+
+    except AttributeError:
+        # NO NQ VARIANT OR NO OUT OF STOCK
+        print("NO NQ")
+        print("NO NQ")
+        print("NO NQ")
+        print("NO NQ")
+
     return data_list
 
 
@@ -84,9 +155,20 @@ def scrape(server, itemnumber):
     # 6 H QTY
     # 7 H TOTAL
     # 8 LAST SOLD
+    # 9 HQ PRICE
+    # 10 HQ QTY
+    # 11 HQ TOTAL
+    # 12 HQ SERVER
+    # 13 NQ PRICE
+    # 14 NQ QTY
+    # 15 NQ TOTAL
+    # 16 NQ SERVER
 
     # IF NO LISTINGS -> "No listings" x 3
     # IF NO HISTORY -> "No history" x 4
-
-print(scrape("Alpha", itemnbr))
-
+start = time.time()
+print(scrape("Shiva", "5830"))
+print(scrape("Shiva", "5831"))
+print(scrape("Shiva", "5834"))
+end = time.time()
+print(end - start)
