@@ -1,15 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
-import time
-server = "Phoenix"
-itemnbr = str(24888)
+
+SERVER = "Phoenix"
+ITEM_NUMBER = str(24888)
 
 
-def scrape(server, itemnumber):
+def scrape(server, item_number):
 
     r = requests.Session()
     r.cookies.update({"mogboard_server": server, "mogboard_last_selected_server": server})
-    targeturl = "https://universalis.app/market/" + str(itemnumber)
+    targeturl = "https://universalis.app/market/" + item_number
     c = r.get(targeturl)
     soup = BeautifulSoup(c.content, 'html.parser')
 
@@ -31,25 +31,10 @@ def scrape(server, itemnumber):
     try:
         #NO MARKET DATA CHECK
         if data.find(class_="item-no-data"):
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
-            data_list.append("NO DATA")
+            data_list += 15 * ["NO DATA"]
         else:
             if 'There are no listings' in data.text:
                 listings = False
-
             #CHECK FOR
             if "Really rare!?" in history.text:
                 history = False
@@ -66,14 +51,12 @@ def scrape(server, itemnumber):
                     if (entry.find("td", class_="price-total")):
                         data_list.append((entry.find("td", class_="price-total")).text)
             else:
-                data_list.append('No listings')
-                data_list.append('No listings')
-                data_list.append('No listings')
+                data_list += 3 * ["No listing"]
 
             #HISTORY DATA
             if history:
                 for entry in history:
-                    # Price_sinle
+                    # Price_single
                     if (entry.find("td", class_="price-current")):
                         data_list.append(entry.find("td", class_="price-current").text)
                     # quanity
@@ -82,20 +65,16 @@ def scrape(server, itemnumber):
                     # total price
                     if (entry.find("td", class_="price-total")):
                         data_list.append((entry.find("td", class_="price-total")).text)
+
                     if (entry.find("td", class_="price-date")):
                         data_list.append((entry.find("td", class_="price-date")).text)
             else:
-                data_list.append('No history')
-                data_list.append('No history')
-                data_list.append('No history')
-                data_list.append('No history')
+                data_list += 4 * ["No history"]
 
             #EUROPE
 
             #HIGH QUALITY
-            hqqty = "NONE"
-            hqprice = "NONE"
-            hqserver = "NONE"
+            hqqty, hqprice, hqserver = "NONE", "NONE", "NONE"
 
             hq = soup.select_one('div.cheapest:-soup-contains("Cheapest HQ")')
             hq = hq.find("div", class_="cheapest_price")
@@ -120,20 +99,12 @@ def scrape(server, itemnumber):
 
             except AttributeError:
                 #NO HQ VARIANT OR OUT OF STOCK
-                data_list.append("NO HQ")
-                data_list.append("NO HQ")
-                data_list.append("NO HQ")
-                data_list.append("NO HQ")
+                data_list += 4 * ["NO HQ"]
 
             #NQ QTY
-            nqqty = "NONE"
-            nqprice = "NONE"
-            nqserver = "NONE"
+            nqqty, nqprice, nqserver = "NONE", "NONE", "NONE"
 
-
-
-            nq = soup.select_one('div.cheapest:-soup-contains("Cheapest HQ")+ .cheapest')
-            nq = nq.find("div", class_="cheapest_price")
+            nq = soup.select_one('div.cheapest:-soup-contains("Cheapest HQ")+ .cheapest').find("div", class_="cheapest_price")
 
             try:
                 if nq.find(class_="cheapest_value"):
@@ -156,10 +127,8 @@ def scrape(server, itemnumber):
 
             except AttributeError:
                 # NO NQ VARIANT OR NO OUT OF STOCK
-                data_list.append("NO HQ")
-                data_list.append("NO HQ")
-                data_list.append("NO HQ")
-                data_list.append("NO HQ")
+                data_list += 4 * ["NO HQ"]
+
     except AttributeError:
         pass
 
