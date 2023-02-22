@@ -1,0 +1,9 @@
+Item: 25 Fire Crystal, Price: 61, Quantity: 5000, Server: Sagittarius, Twintania market price: 70
+Item: 1 Fire Shard, Price: 63, Quantity: 1200, Server: Phoenix, Twintania market price: 80
+Item: 41 Vintage Viking Sword, Price: 15750, Quantity: 1, Server: Cerberus, Twintania market price: 49999
+Item: 1 Company Escutcheon, Price: 315000, Quantity: 1, Server: Raiden, Twintania market price: 397949
+Item: 43 Vintage Scutum, Price: 8400, Quantity: 1, Server: Spriggan, Twintania market price: 34000
+Item: 48 Vintage Kite Shield, Price: 8398, Quantity: 1, Server: Shiva, Twintania market price: 39999
+Item: 55 Militia Claw Hammer, Price: 15750, Quantity: 1, Server: Omega, Twintania market price: 46495
+Item: 55 Militia Spinning Wheel, Price: 15750, Quantity: 1, Server: Louisoix, Twintania market price: 47250
+Item: 55 Militia Sledgehammer, Price: 27300, Quantity: 1, Server: Odin, Twintania market price: 47994
