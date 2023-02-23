@@ -14,12 +14,12 @@ def download_all_sites(sites):
 
 def download_site(url):
     session = get_session()
-    with session.get(url) as response:
+    with session.get(url, timeout=5) as response:
         print(url)
-        scrape(response)
+        scrape(response, url)
         
 
-def scrape(response):
+def scrape(response, url):
 
     soup = bs(response.content, "html.parser")
 
@@ -56,4 +56,4 @@ def scrape(response):
     
     median_of_price = int(stat.median(median_of_price))
 
-    item_list.append([itemname, price, quantity, server, median_of_price])
+    item_list.append([itemname, price, quantity, server, median_of_price, url])
