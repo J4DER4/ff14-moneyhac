@@ -48,7 +48,7 @@ def main():
     start_index = 0
     end_index = 14014
 
-    with open("item_urls.txt", "r") as file:
+    with open("FF14_marketdata_remake/item_urls.txt", "r") as file:
         all_sites = [line.rstrip() for line in file]
     
     try:
@@ -77,9 +77,9 @@ def main():
 
     filtered_list = filter(margin)
     
-    with open("trades.txt", "w") as f:
+    with open("FF14_marketdata_remake/trades.txt", "w") as f:
         for item in filtered_list:
-            f.write(f"Item: {item[0]}, Price: {item[1]}, Quantity: {item[2]}, Server: {item[3]}, Twintania market price: {item[4]}\n")
+            f.write(f"Item: {item[0]}, Price: {item[1]}, Quantity: {item[2]}, Server: {item[3]}, Twintania market price: {item[4]}, URL: {item[5]}\n")
             
     f.close()
     
