@@ -5,7 +5,7 @@ item_list = []
 
 def get_session():
     if not hasattr(thread_local, "session"):
-        thread_local.session = requests.Session()
+        thread_local.session = requests.Session() 
     return thread_local.session
 
 def download_all_sites(sites):
