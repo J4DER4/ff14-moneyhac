@@ -27,10 +27,10 @@ def main():
     download_time = time.time() - start
     print(f"It took {download_time:.2f} seconds to complete the data scraping\n")
 
-    filter()
-    
+    filtered_list = filter()
+
     with open("FF14_marketdata_remake/trades.txt", "w") as f:
-        for item in item_list:
+        for item in filtered_list:
             f.write(f"Item: {item[0]}, Price: {item[1]}, Quantity: {item[2]}, Server: {item[3]}, Twintania market price: {item[4]}, URL: {item[5]}\n")
             
     f.close()

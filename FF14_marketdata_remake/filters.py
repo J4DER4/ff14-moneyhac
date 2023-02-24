@@ -1,26 +1,40 @@
 from data_scraper import item_list
 
-def filter_twintania_cheaper():
+def filter_twintania_cheaper(filtered_list):
     for item in item_list:
-        if int(item[1]) > int(item[4]):
-            item_list.remove(item)
+        try:
+            if int(item[1]) > int(item[4]):
+                filtered_list.remove(item)
+        except:
+            pass
 
-def filter_price_higher_than_cash(cash):
+def filter_price_higher_than_cash(cash, filtered_list):
     for item in item_list:
-        if int(item[1]) * int(item[2]) > cash:
-            item_list.remove(item)
+        try:
+            if int(item[1]) * int(item[2]) > cash:
+                filtered_list.remove(item)
+        except:
+            pass
 
-def filter_under_margin_trades():
+def filter_under_margin_trades(filtered_list):
     for item in item_list:
-        if ((int(item[4]) - int(item[1])) * int(item[2])) < 50000:
-            item_list.remove(item)
+        try:
+            if ((int(item[4]) - int(item[1])) * int(item[2])) < 50000:
+                filtered_list.remove(item)
+        except:
+            pass
 
-def filter_twintania_item():
+def filter_twintania_item(filtered_list):
     for item in item_list:
-        if int(item[1]) == 0:
-            item_list.remove(item)
+        try:
+            if int(item[1]) == 0:
+                filtered_list.remove(item)
+        except:
+            pass
 
 def filter():
+
+    filtered_list = item_list[:]
 
     cash = 100000
     try:
@@ -32,8 +46,9 @@ def filter():
 
     print("Filtering out bad trades...\n")
     
-    filter_twintania_cheaper()
-    filter_price_higher_than_cash(cash)
-    filter_under_margin_trades()
-    filter_twintania_item()
+    filter_twintania_cheaper(filtered_list)
+    filter_price_higher_than_cash(cash, filtered_list)
+    filter_under_margin_trades(filtered_list)
+    filter_twintania_item(filtered_list)
     
+    return filtered_list
