@@ -44,8 +44,6 @@ def scrape(response, url):
     # I'm bad with beautifulsoup
     twintania_price_history = soup.find('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find('div', class_="cw-table cw-history").find('td', class_="price-current")
 
-    twintania_last_sold = soup.find('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find_next('div', class_="tab-market-tables").find('div', class_="cw-table cw-history").find('td', class_="price-current")
-
     next_price = twintania_price_history
     median_of_price.append(int(next_price.text.replace(",", "")))
 
