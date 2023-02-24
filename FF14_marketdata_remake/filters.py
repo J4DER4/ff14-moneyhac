@@ -7,12 +7,12 @@ def filter_twintania_cheaper():
 
 def filter_price_higher_than_cash(cash):
     for item in item_list:
-        if int(item[1]) * int(item[2]) > int(item[4]) * int(item[2]):
+        if int(item[1]) * int(item[2]) > cash:
             item_list.remove(item)
 
 def filter_under_margin_trades():
     for item in item_list:
-        if int(item[4]) * int(item[2]) - int(item[1]) * int(item[2]) < 50000:
+        if ((int(item[4]) - int(item[1])) * int(item[2])) < 50000:
             item_list.remove(item)
 
 def filter_twintania_item():
