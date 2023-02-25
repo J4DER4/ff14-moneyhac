@@ -1,9 +1,569 @@
-Item: 25 Fire Crystal, Price: 61, Quantity: 5000, Server: Sagittarius, Twintania market price: 70
-Item: 1 Fire Shard, Price: 63, Quantity: 1200, Server: Phoenix, Twintania market price: 80
-Item: 41 Vintage Viking Sword, Price: 15750, Quantity: 1, Server: Cerberus, Twintania market price: 49999
-Item: 1 Company Escutcheon, Price: 315000, Quantity: 1, Server: Raiden, Twintania market price: 397949
-Item: 43 Vintage Scutum, Price: 8400, Quantity: 1, Server: Spriggan, Twintania market price: 34000
-Item: 48 Vintage Kite Shield, Price: 8398, Quantity: 1, Server: Shiva, Twintania market price: 39999
-Item: 55 Militia Claw Hammer, Price: 15750, Quantity: 1, Server: Omega, Twintania market price: 46495
-Item: 55 Militia Spinning Wheel, Price: 15750, Quantity: 1, Server: Louisoix, Twintania market price: 47250
-Item: 55 Militia Sledgehammer, Price: 27300, Quantity: 1, Server: Odin, Twintania market price: 47994
+Item: 25 Earth Crystal, Price: 8, Quantity: 9879, Server: Ragnarok, Twintania market price: 16, URL: https://universalis.app/market/11
+Item: 50 Water Cluster, Price: 8, Quantity: 5743, Server: Omega, Twintania market price: 44, URL: https://universalis.app/market/19
+Item: 20 Crow Fly, Price: 4, Quantity: 99, Server: Omega, Twintania market price: 526, URL: https://universalis.app/market/2614
+Item: 34 Sinking Minnow, Price: 620, Quantity: 69, Server: Odin, Twintania market price: 1500, URL: https://universalis.app/market/2617
+Item: 41 Mythril Spoon Lure, Price: 105, Quantity: 99, Server: Odin, Twintania market price: 650, URL: https://universalis.app/market/2622
+Item: 48 Streamer, Price: 184, Quantity: 59, Server: Cerberus, Twintania market price: 2500, URL: https://universalis.app/market/2627
+Item: 25 Shrimp Cage Feeder, Price: 53, Quantity: 99, Server: Moogle, Twintania market price: 565, URL: https://universalis.app/market/2613
+Item: 1 Usagi Kabuto, Price: 82316, Quantity: 1, Server: Omega, Twintania market price: 146998, URL: https://universalis.app/market/2644
+Item: 20 Silver Usagi Kabuto, Price: 41994, Quantity: 1, Server: Moogle, Twintania market price: 169409, URL: https://universalis.app/market/2706
+Item: 35 Lightning Ward Potion, Price: 105, Quantity: 75, Server: Shiva, Twintania market price: 999, URL: https://universalis.app/market/4618
+Item: 50 Ice Ward Hi-Potion, Price: 53, Quantity: 42, Server: Spriggan, Twintania market price: 1500, URL: https://universalis.app/market/4621
+Item: 55 Dzemael Gratin, Price: 997, Quantity: 51, Server: Alpha, Twintania market price: 2249, URL: https://universalis.app/market/4679
+Item: 44 Button Mushroom Saute, Price: 525, Quantity: 72, Server: Phantom, Twintania market price: 1748, URL: https://universalis.app/market/4693
+Item: 45 Stuffed Cabbage, Price: 1050, Quantity: 60, Server: Odin, Twintania market price: 2950, URL: https://universalis.app/market/4664
+Item: 15 Blue Cheese, Price: 11, Quantity: 84, Server: Alpha, Twintania market price: 624, URL: https://universalis.app/market/4755
+Item: 5 Princess Pudding, Price: 10500, Quantity: 1, Server: Omega, Twintania market price: 526315, URL: https://universalis.app/market/4740
+Item: 16 Young Dodo Roaster, Price: 21, Quantity: 65, Server: Odin, Twintania market price: 2744, URL: https://universalis.app/market/4763
+Item: 9 Fish Stock, Price: 210, Quantity: 97, Server: Moogle, Twintania market price: 3248, URL: https://universalis.app/market/4864
+Item: 36 Clown Loach, Price: 263, Quantity: 98, Server: Moogle, Twintania market price: 9967, URL: https://universalis.app/market/4979
+Item: 27 Shadow Catfish, Price: 3675, Quantity: 7, Server: Odin, Twintania market price: 15000, URL: https://universalis.app/market/4963
+Item: 48 Cloud Cutter, Price: 314, Quantity: 99, Server: Phoenix, Twintania market price: 2950, URL: https://universalis.app/market/5040
+Item: 10 Gnat Wing, Price: 94500, Quantity: 1, Server: Zodiark, Twintania market price: 200000, URL: https://universalis.app/market/5450
+Item: 30 Strength Materia II, Price: 1050, Quantity: 7, Server: Odin, Twintania market price: 20000, URL: https://universalis.app/market/5605
+Item: 160 Strength Materia V, Price: 935, Quantity: 81, Server: Ragnarok, Twintania market price: 8500, URL: https://universalis.app/market/5608
+Item: 30 Dexterity Materia II, Price: 314, Quantity: 3, Server: Shiva, Twintania market price: 18750, URL: https://universalis.app/market/5615
+Item: 160 Mind Materia V, Price: 679, Quantity: 5, Server: Shiva, Twintania market price: 17500, URL: https://universalis.app/market/5628
+Item: 15 Ice Materia I, Price: 6300, Quantity: 4, Server: Phoenix, Twintania market price: 25000, URL: https://universalis.app/market/5639
+Item: 70 Intelligence Materia IV, Price: 273, Quantity: 17, Server: Lich, Twintania market price: 4250, URL: https://universalis.app/market/5622
+Item: 45 Heavens' Eye Materia III, Price: 415, Quantity: 6, Server: Zodiark, Twintania market price: 16000, URL: https://universalis.app/market/5666
+Item: 30 Dalamud Red Dye, Price: 327, Quantity: 99, Server: Odin, Twintania market price: 868, URL: https://universalis.app/market/5738
+Item: 30 Soot Black Dye, Price: 231, Quantity: 99, Server: Zodiark, Twintania market price: 957, URL: https://universalis.app/market/5734
+Item: 1 Russet Brown Dye, Price: 558, Quantity: 99, Server: Alpha, Twintania market price: 1857, URL: https://universalis.app/market/5748
+Item: 30 Regal Purple Dye, Price: 420, Quantity: 99, Server: Alpha, Twintania market price: 990, URL: https://universalis.app/market/5813
+Item: 10 Ixali Willowknot, Price: 7875, Quantity: 12, Server: Ragnarok, Twintania market price: 307500, URL: https://universalis.app/market/5828
+Item: 10 Bronze Amalj'ok, Price: 4725, Quantity: 10, Server: Ragnarok, Twintania market price: 197500, URL: https://universalis.app/market/5840
+Item: 1 Gigantpole, Price: 21525, Quantity: 1, Server: Odin, Twintania market price: 81938, URL: https://universalis.app/market/6191
+Item: 1 Wind-up Tonberry, Price: 26250, Quantity: 1, Server: Cerberus, Twintania market price: 84999, URL: https://universalis.app/market/6184
+Item: 35 Riviera House Wall (Stone), Price: 8394, Quantity: 1, Server: Louisoix, Twintania market price: 98000, URL: https://universalis.app/market/6379
+Item: 90 Tidal Wavesoul Fount, Price: 15750, Quantity: 1, Server: Cerberus, Twintania market price: 69994, URL: https://universalis.app/market/6500
+Item: 50 Bloodblossoms, Price: 25988, Quantity: 1, Server: Zodiark, Twintania market price: 131749, URL: https://universalis.app/market/6507
+Item: 50 Bertha Cannon, Price: 16800, Quantity: 1, Server: Phantom, Twintania market price: 72500, URL: https://universalis.app/market/6504
+Item: 50 Mandragora Floor Lamp, Price: 36750, Quantity: 1, Server: Cerberus, Twintania market price: 102399, URL: https://universalis.app/market/6588
+Item: 50 Glade Bathtub, Price: 15750, Quantity: 1, Server: Phoenix, Twintania market price: 77241, URL: https://universalis.app/market/6592
+Item: 50 Oasis Bathtub, Price: 25094, Quantity: 1, Server: Zodiark, Twintania market price: 95273, URL: https://universalis.app/market/6593
+Item: 55 Tonberry Floor Lamp, Price: 68250, Quantity: 1, Server: Shiva, Twintania market price: 125000, URL: https://universalis.app/market/6587
+Item: 50 Riviera Bathtub, Price: 29188, Quantity: 1, Server: Zodiark, Twintania market price: 84897, URL: https://universalis.app/market/6591
+Item: 45 Sylphic Wall Lantern, Price: 28413, Quantity: 1, Server: Louisoix, Twintania market price: 88054, URL: https://universalis.app/market/6667
+Item: 70 Magitek Reaper Miniature, Price: 31500, Quantity: 1, Server: Cerberus, Twintania market price: 94499, URL: https://universalis.app/market/6652
+Item: 25 Galleass Wheel, Price: 15750, Quantity: 1, Server: Sagittarius, Twintania market price: 92496, URL: https://universalis.app/market/6663
+Item: 55 Tonberry Wall Lantern, Price: 26250, Quantity: 1, Server: Omega, Twintania market price: 99999, URL: https://universalis.app/market/7082
+Item: 50 Elder Seedseer Portrait, Price: 10500, Quantity: 1, Server: Cerberus, Twintania market price: 124678, URL: https://universalis.app/market/7097
+Item: 90 Manor Harpsichord, Price: 82950, Quantity: 1, Server: Sagittarius, Twintania market price: 133332, URL: https://universalis.app/market/7108
+Item: 70 Riviera Striking Dummy, Price: 55020, Quantity: 1, Server: Sagittarius, Twintania market price: 145110, URL: https://universalis.app/market/7118
+Item: 90 Alps Striking Dummy, Price: 89250, Quantity: 1, Server: Lich, Twintania market price: 179971, URL: https://universalis.app/market/7121
+Item: 80 Moldva, Price: 3140, Quantity: 2, Server: Phoenix, Twintania market price: 29484, URL: https://universalis.app/market/7683
+Item: 70 Gigantshark, Price: 10527, Quantity: 1, Server: Moogle, Twintania market price: 68497, URL: https://universalis.app/market/7686
+Item: 55 Halone Gerbera Seeds, Price: 11545, Quantity: 1, Server: Ragnarok, Twintania market price: 62499, URL: https://universalis.app/market/7745
+Item: 55 Sylkis Bud, Price: 328, Quantity: 72, Server: Cerberus, Twintania market price: 1952, URL: https://universalis.app/market/7895
+Item: 80 Sweetnewt, Price: 42000, Quantity: 1, Server: Raiden, Twintania market price: 119500, URL: https://universalis.app/market/7923
+Item: 80 Mirrorscale, Price: 26833, Quantity: 3, Server: Omega, Twintania market price: 69997, URL: https://universalis.app/market/7940
+Item: 90 Scholar's Attire Augmentation, Price: 52500, Quantity: 1, Server: Raiden, Twintania market price: 115000, URL: https://universalis.app/market/8051
+Item: 95 Melancholy Moggle Mogfork, Price: 38923, Quantity: 1, Server: Phantom, Twintania market price: 185414, URL: https://universalis.app/market/8385
+Item: 95 Malignant Moggle Mogaxe, Price: 72450, Quantity: 1, Server: Odin, Twintania market price: 197562, URL: https://universalis.app/market/8384
+Item: 95 Maleficent Moggle Mogstaff, Price: 45147, Quantity: 1, Server: Cerberus, Twintania market price: 143498, URL: https://universalis.app/market/8388
+Item: 95 Munificent Moggle Mogtome, Price: 37670, Quantity: 1, Server: Lich, Twintania market price: 99999, URL: https://universalis.app/market/8390
+Item: 95 Tremor Axe, Price: 20991, Quantity: 1, Server: Zodiark, Twintania market price: 81500, URL: https://universalis.app/market/8374
+Item: 1 Ti Leaf Lei, Price: 16796, Quantity: 1, Server: Zodiark, Twintania market price: 87500, URL: https://universalis.app/market/8542
+Item: 1 Red Summer Maro, Price: 17840, Quantity: 1, Server: Zodiark, Twintania market price: 75000, URL: https://universalis.app/market/8543
+Item: 95 Majestic Moggle Mogtome, Price: 21000, Quantity: 1, Server: Zodiark, Twintania market price: 87499, URL: https://universalis.app/market/8389
+Item: 1 Sea Breeze Summer Pareo, Price: 32452, Quantity: 1, Server: Odin, Twintania market price: 123999, URL: https://universalis.app/market/8552
+Item: 1 Summer Sandals, Price: 87150, Quantity: 1, Server: Spriggan, Twintania market price: 144891, URL: https://universalis.app/market/8556
+Item: 1 South Seas Talisman, Price: 89248, Quantity: 1, Server: Spriggan, Twintania market price: 216649, URL: https://universalis.app/market/8544
+Item: 80 Ninja Betta, Price: 23100, Quantity: 1, Server: Lich, Twintania market price: 99492, URL: https://universalis.app/market/8761
+Item: 110 Wootz Sabatons, Price: 15734, Quantity: 1, Server: Phoenix, Twintania market price: 87000, URL: https://universalis.app/market/9030
+Item: 90 Ninja Garb Augmentation, Price: 78728, Quantity: 1, Server: Cerberus, Twintania market price: 223722, URL: https://universalis.app/market/9256
+Item: 60 Artisan's Mitts, Price: 94500, Quantity: 1, Server: Cerberus, Twintania market price: 149999, URL: https://universalis.app/market/9300
+Item: 60 Forager's Slops, Price: 63137, Quantity: 1, Server: Alpha, Twintania market price: 174564, URL: https://universalis.app/market/9305
+Item: 60 Artisan's Culottes, Price: 63137, Quantity: 1, Server: Alpha, Twintania market price: 249999, URL: https://universalis.app/market/9301
+Item: 70 Forager's Sledgehammer, Price: 72891, Quantity: 1, Server: Cerberus, Twintania market price: 190206, URL: https://universalis.app/market/9315
+Item: 70 Artisan's Spinning Wheel, Price: 61334, Quantity: 1, Server: Alpha, Twintania market price: 199991, URL: https://universalis.app/market/9312
+Item: 110 Grade 3 Wheel of Confrontation, Price: 83999, Quantity: 1, Server: Phoenix, Twintania market price: 250000, URL: https://universalis.app/market/9669
+Item: 110 Grade 3 Wheel of Efficiency, Price: 52500, Quantity: 1, Server: Spriggan, Twintania market price: 155125, URL: https://universalis.app/market/9678
+Item: 90 Longcase Chronometer, Price: 71190, Quantity: 1, Server: Odin, Twintania market price: 139207, URL: https://universalis.app/market/9718
+Item: 55 Star Chandelier, Price: 88725, Quantity: 1, Server: Zodiark, Twintania market price: 189048, URL: https://universalis.app/market/9771
+Item: 70 Monochrome Flooring, Price: 20995, Quantity: 1, Server: Spriggan, Twintania market price: 72425, URL: https://universalis.app/market/9769
+Item: 60 Artisan's Apron, Price: 63257, Quantity: 1, Server: Alpha, Twintania market price: 239999, URL: https://universalis.app/market/10052
+Item: 160 Magnificent Mogdelier, Price: 94500, Quantity: 1, Server: Raiden, Twintania market price: 207994, URL: https://universalis.app/market/10349
+Item: 95 Monstrous Moggle Mogsword, Price: 23334, Quantity: 1, Server: Shiva, Twintania market price: 198990, URL: https://universalis.app/market/10411
+Item: 95 Moonlit Moggle Moglobe, Price: 42000, Quantity: 1, Server: Moogle, Twintania market price: 109000, URL: https://universalis.app/market/10535
+Item: 115 Cedar Longbow, Price: 29347, Quantity: 1, Server: Zodiark, Twintania market price: 87998, URL: https://universalis.app/market/10610
+Item: 115 Archaeoskin Grimoire, Price: 26249, Quantity: 1, Server: Spriggan, Twintania market price: 99486, URL: https://universalis.app/market/10646
+Item: 125 Wyvernskin Mane of Fending, Price: 21945, Quantity: 1, Server: Spriggan, Twintania market price: 78994, URL: https://universalis.app/market/10671
+Item: 145 Adamantite Armor of Fending, Price: 31762, Quantity: 1, Server: Louisoix, Twintania market price: 87500, URL: https://universalis.app/market/10681
+Item: 150 Chimerical Felt Breeches of Fending, Price: 52499, Quantity: 1, Server: Shiva, Twintania market price: 154999, URL: https://universalis.app/market/10703
+Item: 150 Serpentskin Armguards of Maiming, Price: 42000, Quantity: 1, Server: Cerberus, Twintania market price: 120177, URL: https://universalis.app/market/10731
+Item: 150 Chimerical Felt Tabard of Striking, Price: 52499, Quantity: 1, Server: Shiva, Twintania market price: 122500, URL: https://universalis.app/market/10766
+Item: 133 Dhalmelskin Armguards of Striking, Price: 14688, Quantity: 1, Server: Zodiark, Twintania market price: 71083, URL: https://universalis.app/market/10770
+Item: 150 Chimerical Felt Tabard of Aiming, Price: 40950, Quantity: 1, Server: Moogle, Twintania market price: 149974, URL: https://universalis.app/market/10808
+Item: 150 Serpentskin Thighboots of Aiming, Price: 40950, Quantity: 1, Server: Shiva, Twintania market price: 97999, URL: https://universalis.app/market/10836
+Item: 150 Aurum Regis Circlet of Healing, Price: 47250, Quantity: 1, Server: Cerberus, Twintania market price: 99990, URL: https://universalis.app/market/10885
+Item: 150 Serpentskin Brais of Scouting, Price: 73499, Quantity: 1, Server: Shiva, Twintania market price: 290000, URL: https://universalis.app/market/10871
+Item: 145 Serpentskin Hat of Casting, Price: 21994, Quantity: 1, Server: Cerberus, Twintania market price: 74249, URL: https://universalis.app/market/10926
+Item: 115 Rainbow Slops of Casting, Price: 1050, Quantity: 1, Server: Louisoix, Twintania market price: 62500, URL: https://universalis.app/market/10950
+Item: 150 Serpentskin Bootlets of Casting, Price: 52500, Quantity: 1, Server: Cerberus, Twintania market price: 199450, URL: https://universalis.app/market/10962
+Item: 133 Mormorion Ring of Fending, Price: 39900, Quantity: 1, Server: Alpha, Twintania market price: 99499, URL: https://universalis.app/market/10984
+Item: 133 Mormorion Ring of Slaying, Price: 38850, Quantity: 1, Server: Alpha, Twintania market price: 119694, URL: https://universalis.app/market/11008
+Item: 133 Mormorion Ring of Aiming, Price: 34650, Quantity: 1, Server: Alpha, Twintania market price: 99496, URL: https://universalis.app/market/11032
+Item: 139 Opal Ring of Healing, Price: 36725, Quantity: 1, Server: Phoenix, Twintania market price: 89497, URL: https://universalis.app/market/11057
+Item: 133 Mormorion Ring of Healing, Price: 31499, Quantity: 1, Server: Odin, Twintania market price: 84481, URL: https://universalis.app/market/11056
+Item: 170 Weighted Adamantite Sledgehammer, Price: 31500, Quantity: 1, Server: Raiden, Twintania market price: 94409, URL: https://universalis.app/market/11950
+Item: 150 Serpentskin Shoes, Price: 40950, Quantity: 1, Server: Phantom, Twintania market price: 98996, URL: https://universalis.app/market/11982
+Item: 150 Chimerical Felt Trousers, Price: 19425, Quantity: 1, Server: Moogle, Twintania market price: 97859, URL: https://universalis.app/market/12005
+Item: 90 Holy Cedar Necklace, Price: 21000, Quantity: 1, Server: Shiva, Twintania market price: 79996, URL: https://universalis.app/market/12011
+Item: 30 Display Stand, Price: 10500, Quantity: 1, Server: Omega, Twintania market price: 64878, URL: https://universalis.app/market/12098
+Item: 150 Expanse Fountain, Price: 89207, Quantity: 1, Server: Lich, Twintania market price: 148000, URL: https://universalis.app/market/12111
+Item: 136 Toy Box, Price: 99750, Quantity: 1, Server: Phantom, Twintania market price: 179674, URL: https://universalis.app/market/12094
+Item: 1 Miniature Gold Saucer, Price: 60900, Quantity: 1, Server: Spriggan, Twintania market price: 119999, URL: https://universalis.app/market/12099
+Item: 142 Cloud Mica, Price: 188, Quantity: 99, Server: Louisoix, Twintania market price: 699, URL: https://universalis.app/market/12539
+Item: 142 Raw Opal, Price: 51, Quantity: 71, Server: Phantom, Twintania market price: 1000, URL: https://universalis.app/market/12556
+Item: 145 Goblin Jig, Price: 1049, Quantity: 9, Server: Zodiark, Twintania market price: 8000, URL: https://universalis.app/market/12706
+Item: 136 Marble Oscar, Price: 2363, Quantity: 20, Server: Odin, Twintania market price: 9200, URL: https://universalis.app/market/12750
+Item: 133 Kissing Fish, Price: 1680, Quantity: 26, Server: Omega, Twintania market price: 24742, URL: https://universalis.app/market/12743
+Item: 133 Bubble Eye, Price: 3150, Quantity: 10, Server: Odin, Twintania market price: 11997, URL: https://universalis.app/market/12739
+Item: 136 Mogpom, Price: 840, Quantity: 99, Server: Alpha, Twintania market price: 4494, URL: https://universalis.app/market/12758
+Item: 136 Mercy Staff, Price: 1264, Quantity: 42, Server: Shiva, Twintania market price: 2500, URL: https://universalis.app/market/12765
+Item: 150 Tiny Axolotl, Price: 583, Quantity: 10, Server: Alpha, Twintania market price: 14999, URL: https://universalis.app/market/12774
+Item: 139 Bullwhip, Price: 215, Quantity: 40, Server: Moogle, Twintania market price: 1893, URL: https://universalis.app/market/12773
+Item: 136 Sweetfish, Price: 840, Quantity: 99, Server: Alpha, Twintania market price: 6950, URL: https://universalis.app/market/12780
+Item: 150 Hinterlands Perch, Price: 987, Quantity: 72, Server: Alpha, Twintania market price: 8998, URL: https://universalis.app/market/12819
+Item: 148 Cobrafish, Price: 8819, Quantity: 8, Server: Omega, Twintania market price: 28497, URL: https://universalis.app/market/12813
+Item: 180 Spring Urchin, Price: 368, Quantity: 71, Server: Spriggan, Twintania market price: 1500, URL: https://universalis.app/market/12823
+Item: 130 Ishgardian Muffin, Price: 892, Quantity: 99, Server: Spriggan, Twintania market price: 2405, URL: https://universalis.app/market/12850
+Item: 160 Superior Deep-green Enchanted Ink, Price: 4725, Quantity: 21, Server: Shiva, Twintania market price: 27510, URL: https://universalis.app/market/12917
+Item: 120 Deep-red Enchanted Ink, Price: 1365, Quantity: 18, Server: Shiva, Twintania market price: 9995, URL: https://universalis.app/market/12914
+Item: 139 Duskborne Aethersand, Price: 1041, Quantity: 28, Server: Louisoix, Twintania market price: 3999, URL: https://universalis.app/market/12936
+Item: 160 Seaborne Aethersand, Price: 3671, Quantity: 15, Server: Alpha, Twintania market price: 7500, URL: https://universalis.app/market/12940
+Item: 170 Gemmaster's Mallet, Price: 5250, Quantity: 1, Server: Shiva, Twintania market price: 56000, URL: https://universalis.app/market/13008
+Item: 170 Gemmaster's Gown, Price: 15750, Quantity: 1, Server: Sagittarius, Twintania market price: 73749, URL: https://universalis.app/market/13029
+Item: 136 Topiary Chocobo, Price: 42000, Quantity: 1, Server: Omega, Twintania market price: 199999, URL: https://universalis.app/market/13084
+Item: 160 Faerie Chandelier, Price: 52500, Quantity: 1, Server: Cerberus, Twintania market price: 249500, URL: https://universalis.app/market/13097
+Item: 160 Titanium Alloy Square, Price: 7875, Quantity: 6, Server: Cerberus, Twintania market price: 19000, URL: https://universalis.app/market/13592
+Item: 185 Sky Pirate's Gauntlets of Fending, Price: 52498, Quantity: 1, Server: Spriggan, Twintania market price: 119945, URL: https://universalis.app/market/13642
+Item: 185 Sky Pirate's Coat of Maiming, Price: 63000, Quantity: 1, Server: Moogle, Twintania market price: 137490, URL: https://universalis.app/market/13647
+Item: 185 Sky Pirate's Vest of Aiming, Price: 52500, Quantity: 1, Server: Sagittarius, Twintania market price: 129989, URL: https://universalis.app/market/13659
+Item: 185 Sky Pirate's Bottoms of Healing, Price: 61898, Quantity: 1, Server: Zodiark, Twintania market price: 149990, URL: https://universalis.app/market/13673
+Item: 185 Sky Pirate's Coat of Casting, Price: 83998, Quantity: 1, Server: Raiden, Twintania market price: 144988, URL: https://universalis.app/market/13677
+Item: 1 Ramie Shirt, Price: 8295, Quantity: 1, Server: Omega, Twintania market price: 79999, URL: https://universalis.app/market/13688
+Item: 150 Pterodactyl, Price: 3150, Quantity: 28, Server: Louisoix, Twintania market price: 5000, URL: https://universalis.app/market/13733
+Item: 180 Sphalerite, Price: 2331, Quantity: 20, Server: Sagittarius, Twintania market price: 4994, URL: https://universalis.app/market/13750
+Item: 160 Blood Pepper Seeds, Price: 8400, Quantity: 7, Server: Shiva, Twintania market price: 50000, URL: https://universalis.app/market/13755
+Item: 1 Chive Seeds, Price: 1049, Quantity: 32, Server: Phoenix, Twintania market price: 8999, URL: https://universalis.app/market/13766
+Item: 50 Replica Allagan Tunic of Casting, Price: 9448, Quantity: 1, Server: Odin, Twintania market price: 75000, URL: https://universalis.app/market/13830
+Item: 50 Replica High Allagan Guillotine, Price: 1040, Quantity: 1, Server: Moogle, Twintania market price: 76250, URL: https://universalis.app/market/13845
+Item: 50 Replica High Allagan Gauntlets of Fending, Price: 36750, Quantity: 1, Server: Cerberus, Twintania market price: 120000, URL: https://universalis.app/market/13850
+Item: 50 Replica High Allagan Gauntlets of Maiming, Price: 4199, Quantity: 1, Server: Zodiark, Twintania market price: 55000, URL: https://universalis.app/market/13855
+Item: 50 Replica High Allagan Gauntlets of Striking, Price: 4197, Quantity: 1, Server: Spriggan, Twintania market price: 109497, URL: https://universalis.app/market/13860
+Item: 50 Replica High Allagan Mask of Aiming, Price: 32025, Quantity: 1, Server: Odin, Twintania market price: 200000, URL: https://universalis.app/market/13863
+Item: 50 Replica Heavy High Allagan Coat, Price: 43049, Quantity: 1, Server: Zodiark, Twintania market price: 99999, URL: https://universalis.app/market/13849
+Item: 50 Replica High Allagan Coat of Healing, Price: 68245, Quantity: 1, Server: Lich, Twintania market price: 151842, URL: https://universalis.app/market/13869
+Item: 50 Replica High Allagan Mask of Casting, Price: 23100, Quantity: 1, Server: Ragnarok, Twintania market price: 76883, URL: https://universalis.app/market/13873
+Item: 50 Replica Dreadwyrm Coronet of Fending, Price: 93917, Quantity: 1, Server: Cerberus, Twintania market price: 157057, URL: https://universalis.app/market/13892
+Item: 50 Replica High Allagan Coat of Aiming, Price: 15633, Quantity: 1, Server: Shiva, Twintania market price: 102000, URL: https://universalis.app/market/13864
+Item: 50 Replica Dreadwyrm Armor of Fending, Price: 72444, Quantity: 1, Server: Odin, Twintania market price: 169990, URL: https://universalis.app/market/13893
+Item: 50 Replica Dreadwyrm Robe of Casting, Price: 87569, Quantity: 1, Server: Omega, Twintania market price: 199998, URL: https://universalis.app/market/13918
+Item: 50 Replica Dreadwyrm Gloves of Casting, Price: 65169, Quantity: 1, Server: Ragnarok, Twintania market price: 194499, URL: https://universalis.app/market/13919
+Item: 50 Replica Dreadwyrm Circlet of Scouting, Price: 34647, Quantity: 1, Server: Raiden, Twintania market price: 106930, URL: https://universalis.app/market/13922
+Item: 180 Dinosaur Skeleton, Price: 36225, Quantity: 1, Server: Phantom, Twintania market price: 103989, URL: https://universalis.app/market/14059
+Item: 142 Alpine Chandelier, Price: 36645, Quantity: 1, Server: Phoenix, Twintania market price: 99575, URL: https://universalis.app/market/14068
+Item: 190 Gnomefish, Price: 210, Quantity: 50, Server: Phantom, Twintania market price: 2000, URL: https://universalis.app/market/14212
+Item: 1 A New Hope Orchestrion Roll, Price: 15750, Quantity: 1, Server: Alpha, Twintania market price: 69019, URL: https://universalis.app/market/14224
+Item: 1 Hunger Orchestrion Roll, Price: 9974, Quantity: 2, Server: Zodiark, Twintania market price: 37445, URL: https://universalis.app/market/14261
+Item: 180 Stuffed Mandragora Queen, Price: 91139, Quantity: 1, Server: Phoenix, Twintania market price: 180000, URL: https://universalis.app/market/14903
+Item: 90 Staggered Shelf, Price: 58333, Quantity: 1, Server: Zodiark, Twintania market price: 213142, URL: https://universalis.app/market/15143
+Item: 70 Sharlayan Flooring, Price: 24149, Quantity: 1, Server: Odin, Twintania market price: 94847, URL: https://universalis.app/market/15164
+Item: 170 Carbonweave Apron of Crafting, Price: 20998, Quantity: 1, Server: Louisoix, Twintania market price: 72499, URL: https://universalis.app/market/15521
+Item: 195 High Mythrite File, Price: 73500, Quantity: 1, Server: Raiden, Twintania market price: 269998, URL: https://universalis.app/market/15547
+Item: 195 High Mythrite Pickaxe, Price: 94500, Quantity: 1, Server: Shiva, Twintania market price: 221999, URL: https://universalis.app/market/15543
+Item: 195 High Mythrite Sledgehammer, Price: 83570, Quantity: 1, Server: Raiden, Twintania market price: 140229, URL: https://universalis.app/market/15554
+Item: 110 Mighty Thunderstrike, Price: 35882, Quantity: 1, Server: Odin, Twintania market price: 113999, URL: https://universalis.app/market/15556
+Item: 110 Mighty Thunderbolt, Price: 44078, Quantity: 1, Server: Moogle, Twintania market price: 102499, URL: https://universalis.app/market/15559
+Item: 110 Mighty Thunderclap, Price: 36750, Quantity: 1, Server: Spriggan, Twintania market price: 104961, URL: https://universalis.app/market/15562
+Item: 110 Mighty Thundersparks, Price: 10500, Quantity: 1, Server: Ragnarok, Twintania market price: 82500, URL: https://universalis.app/market/15561
+Item: 110 Ona Ramuhda First Edition, Price: 11665, Quantity: 1, Server: Shiva, Twintania market price: 88999, URL: https://universalis.app/market/15566
+Item: 110 Mighty Thunderdome, Price: 7623, Quantity: 1, Server: Shiva, Twintania market price: 64999, URL: https://universalis.app/market/15568
+Item: 180 Dead Hive Shamshir, Price: 18270, Quantity: 1, Server: Moogle, Twintania market price: 78176, URL: https://universalis.app/market/15584
+Item: 180 Astrometer of the Round, Price: 36744, Quantity: 1, Server: Omega, Twintania market price: 108499, URL: https://universalis.app/market/15610
+Item: 180 Sword of the Round, Price: 89250, Quantity: 1, Server: Sagittarius, Twintania market price: 147332, URL: https://universalis.app/market/15598
+Item: 210 Aphotic Pirarucu, Price: 4197, Quantity: 1, Server: Cerberus, Twintania market price: 54755, URL: https://universalis.app/market/15638
+Item: 1 Sultana Dreaming Orchestrion Roll, Price: 13649, Quantity: 1, Server: Phoenix, Twintania market price: 69929, URL: https://universalis.app/market/15799
+Item: 1 Whisper of the Land Orchestrion Roll, Price: 84000, Quantity: 1, Server: Omega, Twintania market price: 211498, URL: https://universalis.app/market/15829
+Item: 180 Neo Aetherstone - Leg Gear, Price: 2730, Quantity: 2, Server: Omega, Twintania market price: 44900, URL: https://universalis.app/market/15911
+Item: 95 Mighty Moggle Mogrod, Price: 20789, Quantity: 1, Server: Lich, Twintania market price: 133000, URL: https://universalis.app/market/15914
+Item: 40 Autumnal Ginkgo Tree, Price: 5250, Quantity: 1, Server: Omega, Twintania market price: 68498, URL: https://universalis.app/market/15982
+Item: 180 Great Gubal Floor Lamp, Price: 99708, Quantity: 1, Server: Cerberus, Twintania market price: 176500, URL: https://universalis.app/market/15975
+Item: 40 Autumnal Maple Tree, Price: 10500, Quantity: 1, Server: Omega, Twintania market price: 103328, URL: https://universalis.app/market/15981
+Item: 1 Griffin Leather Cuffs, Price: 35698, Quantity: 1, Server: Raiden, Twintania market price: 94999, URL: https://universalis.app/market/16626
+Item: 250 Hemiskin Brais of Maiming, Price: 22050, Quantity: 1, Server: Lich, Twintania market price: 84704, URL: https://universalis.app/market/16650
+Item: 230 Bobgoblin Bass, Price: 14700, Quantity: 1, Server: Shiva, Twintania market price: 122987, URL: https://universalis.app/market/16754
+Item: 180 Troupe Stage, Price: 68198, Quantity: 1, Server: Lich, Twintania market price: 156997, URL: https://universalis.app/market/16781
+Item: 1 Jewel of the Desert Painting, Price: 18900, Quantity: 1, Server: Lich, Twintania market price: 74975, URL: https://universalis.app/market/16953
+Item: 70 Pendant Lamp Planter, Price: 31497, Quantity: 1, Server: Shiva, Twintania market price: 157494, URL: https://universalis.app/market/17036
+Item: 1 Floating City of Nym Painting, Price: 41999, Quantity: 1, Server: Moogle, Twintania market price: 95450, URL: https://universalis.app/market/17068
+Item: 1 Haukke Manor Painting, Price: 9555, Quantity: 1, Server: Zodiark, Twintania market price: 92500, URL: https://universalis.app/market/17075
+Item: 1 Bannock Painting, Price: 30449, Quantity: 1, Server: Spriggan, Twintania market price: 102515, URL: https://universalis.app/market/17074
+Item: 1 South Shroud Landing Painting, Price: 42000, Quantity: 1, Server: Spriggan, Twintania market price: 124999, URL: https://universalis.app/market/17080
+Item: 1 Quarrymill Painting, Price: 9450, Quantity: 1, Server: Alpha, Twintania market price: 65999, URL: https://universalis.app/market/17082
+Item: 1 Black Brush Station Painting, Price: 31500, Quantity: 1, Server: Ragnarok, Twintania market price: 290000, URL: https://universalis.app/market/17088
+Item: 1 Carline Canopy Painting, Price: 52500, Quantity: 1, Server: Spriggan, Twintania market price: 119499, URL: https://universalis.app/market/17072
+Item: 1 Seedbed Painting, Price: 15750, Quantity: 1, Server: Sagittarius, Twintania market price: 92250, URL: https://universalis.app/market/17078
+Item: 1 East Watchtower Painting, Price: 31532, Quantity: 1, Server: Omega, Twintania market price: 440000, URL: https://universalis.app/market/17098
+Item: 1 Abandoned Amajina Mythril Mine Painting, Price: 31532, Quantity: 1, Server: Omega, Twintania market price: 197015, URL: https://universalis.app/market/17102
+Item: 1 Nail Painting, Price: 52448, Quantity: 1, Server: Lich, Twintania market price: 149248, URL: https://universalis.app/market/17103
+Item: 1 Alder Springs Painting, Price: 15750, Quantity: 1, Server: Sagittarius, Twintania market price: 150000, URL: https://universalis.app/market/17085
+Item: 1 Holy See of Ishgard Painting, Price: 38850, Quantity: 1, Server: Lich, Twintania market price: 115000, URL: https://universalis.app/market/17106
+Item: 1 Boulder Downs Painting, Price: 15750, Quantity: 1, Server: Sagittarius, Twintania market price: 80015, URL: https://universalis.app/market/17107
+Item: 1 Raubahn's Push Painting, Price: 31532, Quantity: 1, Server: Omega, Twintania market price: 274999, URL: https://universalis.app/market/17101
+Item: 1 Crystal Tower Painting, Price: 52500, Quantity: 1, Server: Phoenix, Twintania market price: 109000, URL: https://universalis.app/market/17113
+Item: 255 Sky Rat Harness of Fending, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 299990, URL: https://universalis.app/market/17307
+Item: 255 Sky Rat Breeches of Fending, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 299990, URL: https://universalis.app/market/17309
+Item: 255 Sky Rat Hook of Fending, Price: 94498, Quantity: 1, Server: Spriggan, Twintania market price: 149990, URL: https://universalis.app/market/17308
+Item: 255 Sky Rat Harness of Aiming, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 224990, URL: https://universalis.app/market/17322
+Item: 255 Sky Rat Breeches of Maiming, Price: 62999, Quantity: 1, Server: Louisoix, Twintania market price: 157750, URL: https://universalis.app/market/17314
+Item: 255 Sky Rat Harness of Scouting, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 299995, URL: https://universalis.app/market/17327
+Item: 255 Sky Rat Harness of Striking, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 199990, URL: https://universalis.app/market/17317
+Item: 255 Sky Rat Breeches of Casting, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 374768, URL: https://universalis.app/market/17339
+Item: 255 Sky Rat Harness of Casting, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 279993, URL: https://universalis.app/market/17337
+Item: 1 Shroud Cherry Sapling, Price: 209, Quantity: 89, Server: Zodiark, Twintania market price: 2849, URL: https://universalis.app/market/17546
+Item: 250 Armor Fish, Price: 52266, Quantity: 1, Server: Zodiark, Twintania market price: 178999, URL: https://universalis.app/market/17590
+Item: 250 Problematicus, Price: 5775, Quantity: 1, Server: Cerberus, Twintania market price: 89500, URL: https://universalis.app/market/17588
+Item: 142 Near Eastern Antique Component Materials, Price: 315, Quantity: 99, Server: Odin, Twintania market price: 2825, URL: https://universalis.app/market/17723
+Item: 1 Hingan Mansion Permit (Kura-zukuri), Price: 60, Quantity: 1, Server: Phantom, Twintania market price: 2050000, URL: https://universalis.app/market/17739
+Item: 1 Moai Statue, Price: 20999, Quantity: 1, Server: Ragnarok, Twintania market price: 99989, URL: https://universalis.app/market/17985
+Item: 290 Strength Materia VI, Price: 1260, Quantity: 56, Server: Phantom, Twintania market price: 4750, URL: https://universalis.app/market/18006
+Item: 255 Gaganaskin Leg Guards of Fending, Price: 10499, Quantity: 1, Server: Cerberus, Twintania market price: 81944, URL: https://universalis.app/market/18053
+Item: 265 Ruby Cotton Chasuble, Price: 8399, Quantity: 1, Server: Sagittarius, Twintania market price: 73706, URL: https://universalis.app/market/18236
+Item: 265 Gyuki Leather Dress Gloves, Price: 5249, Quantity: 1, Server: Alpha, Twintania market price: 61497, URL: https://universalis.app/market/18237
+Item: 273 Tigerskin Coat of Maiming, Price: 12600, Quantity: 1, Server: Lich, Twintania market price: 74998, URL: https://universalis.app/market/18368
+Item: 273 Tigerskin Tricorne of Aiming, Price: 373, Quantity: 1, Server: Zodiark, Twintania market price: 73998, URL: https://universalis.app/market/18379
+Item: 273 Kudzu Trousers of Striking, Price: 620, Quantity: 1, Server: Moogle, Twintania market price: 64997, URL: https://universalis.app/market/18376
+Item: 285 Twinsilk Turban of Scouting, Price: 11445, Quantity: 1, Server: Phoenix, Twintania market price: 73685, URL: https://universalis.app/market/18697
+Item: 325 Ala Mhigan Round Knife, Price: 52500, Quantity: 1, Server: Ragnarok, Twintania market price: 229999, URL: https://universalis.app/market/19605
+Item: 325 Ala Mhigan Needle, Price: 47969, Quantity: 1, Server: Zodiark, Twintania market price: 200000, URL: https://universalis.app/market/19606
+Item: 320 Ala Mhigan Turban of Crafting, Price: 31896, Quantity: 1, Server: Zodiark, Twintania market price: 103970, URL: https://universalis.app/market/19717
+Item: 320 Ala Mhigan Coat of Gathering, Price: 68024, Quantity: 1, Server: Omega, Twintania market price: 119993, URL: https://universalis.app/market/19723
+Item: 320 Ala Mhigan Gloves of Gathering, Price: 57750, Quantity: 1, Server: Louisoix, Twintania market price: 109999, URL: https://universalis.app/market/19724
+Item: 285 Doman Tea, Price: 945, Quantity: 12, Server: Cerberus, Twintania market price: 5972, URL: https://universalis.app/market/19807
+Item: 260 Baklava, Price: 1575, Quantity: 50, Server: Raiden, Twintania market price: 4495, URL: https://universalis.app/market/19811
+Item: 282 Egg Foo Young, Price: 3618, Quantity: 12, Server: Zodiark, Twintania market price: 8000, URL: https://universalis.app/market/19820
+Item: 285 Boiled Amberjack Head, Price: 1995, Quantity: 20, Server: Lich, Twintania market price: 7500, URL: https://universalis.app/market/19823
+Item: 276 Sweet and Sour Frogs' Legs, Price: 1365, Quantity: 18, Server: Omega, Twintania market price: 10799, URL: https://universalis.app/market/19825
+Item: 265 Kasha, Price: 5039, Quantity: 10, Server: Spriggan, Twintania market price: 12500, URL: https://universalis.app/market/19838
+Item: 265 Buckwheat Kernels, Price: 208, Quantity: 99, Server: Omega, Twintania market price: 974, URL: https://universalis.app/market/19850
+Item: 288 Infusion of Vitality, Price: 6300, Quantity: 12, Server: Moogle, Twintania market price: 12500, URL: https://universalis.app/market/19888
+Item: 288 Infusion of Mind, Price: 2047, Quantity: 18, Server: Odin, Twintania market price: 10448, URL: https://universalis.app/market/19890
+Item: 275 Whitehorse, Price: 9975, Quantity: 10, Server: Zodiark, Twintania market price: 15499, URL: https://universalis.app/market/20035
+Item: 260 Yellow Prismfish, Price: 157, Quantity: 99, Server: Ragnarok, Twintania market price: 1199, URL: https://universalis.app/market/20052
+Item: 260 Bull's Bite, Price: 23625, Quantity: 3, Server: Odin, Twintania market price: 50000, URL: https://universalis.app/market/20076
+Item: 290 Swordfish, Price: 13648, Quantity: 3, Server: Zodiark, Twintania market price: 89995, URL: https://universalis.app/market/20100
+Item: 1 Dimwold Painting, Price: 63000, Quantity: 1, Server: Alpha, Twintania market price: 249490, URL: https://universalis.app/market/20315
+Item: 1 Castellum Velodyna Painting, Price: 5250, Quantity: 1, Server: Moogle, Twintania market price: 70000, URL: https://universalis.app/market/20311
+Item: 1 Divine Audience Painting, Price: 15750, Quantity: 1, Server: Sagittarius, Twintania market price: 87488, URL: https://universalis.app/market/20329
+Item: 1 Porta Praetoria Painting, Price: 22775, Quantity: 1, Server: Shiva, Twintania market price: 85000, URL: https://universalis.app/market/20331
+Item: 1 Heaven-on-High Painting, Price: 8400, Quantity: 1, Server: Moogle, Twintania market price: 79974, URL: https://universalis.app/market/20339
+Item: 1 Doma Castle Painting, Price: 31500, Quantity: 1, Server: Moogle, Twintania market price: 85015, URL: https://universalis.app/market/20347
+Item: 95 Inferno Rapier, Price: 23099, Quantity: 1, Server: Shiva, Twintania market price: 75900, URL: https://universalis.app/market/20359
+Item: 95 Maliferous Moggle Mogtana, Price: 31490, Quantity: 1, Server: Moogle, Twintania market price: 99962, URL: https://universalis.app/market/20370
+Item: 180 Rapier of the Round, Price: 16196, Quantity: 1, Server: Phoenix, Twintania market price: 137777, URL: https://universalis.app/market/20437
+Item: 180 Dead Hive Rapier, Price: 10500, Quantity: 1, Server: Shiva, Twintania market price: 94861, URL: https://universalis.app/market/20433
+Item: 270 Hingan Bed, Price: 48289, Quantity: 1, Server: Shiva, Twintania market price: 129995, URL: https://universalis.app/market/20731
+Item: 279 Hingan Armor Display, Price: 63000, Quantity: 1, Server: Cerberus, Twintania market price: 195999, URL: https://universalis.app/market/20748
+Item: 1 Ok' Vundu Vana Painting, Price: 9445, Quantity: 1, Server: Shiva, Twintania market price: 84497, URL: https://universalis.app/market/21157
+Item: 1 Provenance Painting, Price: 31521, Quantity: 1, Server: Sagittarius, Twintania market price: 99999, URL: https://universalis.app/market/21168
+Item: 1 Antithesis Painting, Price: 30450, Quantity: 1, Server: Moogle, Twintania market price: 94505, URL: https://universalis.app/market/21161
+Item: 1 Songs of Salt and Suffering Orchestrion Roll, Price: 4200, Quantity: 5, Server: Shiva, Twintania market price: 26499, URL: https://universalis.app/market/21282
+Item: 320 Hanya Mask, Price: 29337, Quantity: 1, Server: Zodiark, Twintania market price: 96998, URL: https://universalis.app/market/21836
+Item: 1 Bloodstorm Oil Painting, Price: 31500, Quantity: 1, Server: Phoenix, Twintania market price: 99948, URL: https://universalis.app/market/21886
+Item: 1 Kugane Ofunakura Oil Painting, Price: 21000, Quantity: 1, Server: Sagittarius, Twintania market price: 74500, URL: https://universalis.app/market/21895
+Item: 320 Saltmill, Price: 5249, Quantity: 1, Server: Alpha, Twintania market price: 76250, URL: https://universalis.app/market/22394
+Item: 320 Mirage Mahi, Price: 944, Quantity: 2, Server: Omega, Twintania market price: 29059, URL: https://universalis.app/market/22389
+Item: 1 Unbreakable (Duality) Orchestrion Roll, Price: 20998, Quantity: 1, Server: Phoenix, Twintania market price: 86997, URL: https://universalis.app/market/22482
+Item: 1 Unfinished Wood Flooring, Price: 19425, Quantity: 1, Server: Spriggan, Twintania market price: 110000, URL: https://universalis.app/market/22531
+Item: 1 Merry Mog Bed, Price: 73495, Quantity: 1, Server: Phoenix, Twintania market price: 148999, URL: https://universalis.app/market/22536
+Item: 1 Hingan Cleaning Supplies, Price: 87097, Quantity: 1, Server: Raiden, Twintania market price: 144500, URL: https://universalis.app/market/22570
+Item: 1 Jellyfish Lamp, Price: 31563, Quantity: 1, Server: Zodiark, Twintania market price: 94354, URL: https://universalis.app/market/22574
+Item: 325 Nightsteel Scythe, Price: 78750, Quantity: 1, Server: Zodiark, Twintania market price: 274994, URL: https://universalis.app/market/22904
+Item: 340 Yamashi Kasa, Price: 73499, Quantity: 1, Server: Zodiark, Twintania market price: 166787, URL: https://universalis.app/market/22910
+Item: 340 Yamashi Momohiki, Price: 78750, Quantity: 1, Server: Zodiark, Twintania market price: 149806, URL: https://universalis.app/market/22913
+Item: 340 Yamashi Zori, Price: 72216, Quantity: 1, Server: Zodiark, Twintania market price: 124992, URL: https://universalis.app/market/22914
+Item: 340 Slothskin Ring of Gathering, Price: 52500, Quantity: 1, Server: Cerberus, Twintania market price: 199999, URL: https://universalis.app/market/22924
+Item: 340 Ornate Onishi Dogi, Price: 100000, Quantity: 1, Server: Lich, Twintania market price: 799475, URL: https://universalis.app/market/23108
+Item: 1 The Ancient City Orchestrion Roll, Price: 99750, Quantity: 1, Server: Phantom, Twintania market price: 309698, URL: https://universalis.app/market/23321
+Item: 1 Flash of Steel Orchestrion Roll, Price: 17850, Quantity: 1, Server: Moogle, Twintania market price: 70999, URL: https://universalis.app/market/23330
+Item: 380 Rakshasa Zori of Healing, Price: 8243, Quantity: 1, Server: Phoenix, Twintania market price: 59449, URL: https://universalis.app/market/23818
+Item: 380 Ornate Rakshasa Haori of Striking, Price: 80000, Quantity: 1, Server: Shiva, Twintania market price: 500000, URL: https://universalis.app/market/23849
+Item: 43 Mounted Plate Rack, Price: 20948, Quantity: 1, Server: Phantom, Twintania market price: 77392, URL: https://universalis.app/market/23891
+Item: 340 Ku'er, Price: 1049, Quantity: 3, Server: Phoenix, Twintania market price: 40475, URL: https://universalis.app/market/24214
+Item: 1 Dancing Mad - Movement I Orchestrion Roll, Price: 73658, Quantity: 1, Server: Raiden, Twintania market price: 199495, URL: https://universalis.app/market/24301
+Item: 1 Final, Not Final Orchestrion Roll, Price: 10498, Quantity: 2, Server: Spriggan, Twintania market price: 38999, URL: https://universalis.app/market/24299
+Item: 1 A Land Long Dead Orchestrion Roll, Price: 71400, Quantity: 1, Server: Alpha, Twintania market price: 142497, URL: https://universalis.app/market/24295
+Item: 180 Seeing Horde Rapier, Price: 47246, Quantity: 1, Server: Lich, Twintania market price: 132534, URL: https://universalis.app/market/24334
+Item: 279 Fat Cat Sofa, Price: 13711, Quantity: 1, Server: Omega, Twintania market price: 70000, URL: https://universalis.app/market/24528
+Item: 340 Lily of the Veil, Price: 20941, Quantity: 1, Server: Phoenix, Twintania market price: 72745, URL: https://universalis.app/market/24881
+Item: 340 Axelrod, Price: 2625, Quantity: 1, Server: Phoenix, Twintania market price: 70000, URL: https://universalis.app/market/24889
+Item: 340 The Unraveled Bow, Price: 5250, Quantity: 1, Server: Zodiark, Twintania market price: 82500, URL: https://universalis.app/market/24890
+Item: 340 Pomegranate Trout, Price: 3500, Quantity: 2, Server: Louisoix, Twintania market price: 102497, URL: https://universalis.app/market/24885
+Item: 340 Nhaama's Treasure, Price: 4200, Quantity: 1, Server: Omega, Twintania market price: 60453, URL: https://universalis.app/market/24891
+Item: 370 Drepanaspis, Price: 10490, Quantity: 1, Server: Phoenix, Twintania market price: 100000, URL: https://universalis.app/market/24991
+Item: 370 Stethacanthus, Price: 30449, Quantity: 1, Server: Cerberus, Twintania market price: 100000, URL: https://universalis.app/market/24992
+Item: 360 Xenacanthus, Price: 11550, Quantity: 1, Server: Cerberus, Twintania market price: 149994, URL: https://universalis.app/market/24990
+Item: 180 Axe of the Demon, Price: 52499, Quantity: 1, Server: Phantom, Twintania market price: 174000, URL: https://universalis.app/market/25040
+Item: 180 Pike of the Demon, Price: 78330, Quantity: 1, Server: Moogle, Twintania market price: 150000, URL: https://universalis.app/market/25041
+Item: 180 Fire of the Demon, Price: 83998, Quantity: 1, Server: Phantom, Twintania market price: 149999, URL: https://universalis.app/market/25045
+Item: 180 Cane of the Demon, Price: 94499, Quantity: 1, Server: Shiva, Twintania market price: 227486, URL: https://universalis.app/market/25046
+Item: 180 Bow of the Demon, Price: 60113, Quantity: 1, Server: Moogle, Twintania market price: 145000, URL: https://universalis.app/market/25042
+Item: 180 Edge of the Demon, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 262500, URL: https://universalis.app/market/25044
+Item: 180 Rapier of the Demon, Price: 44768, Quantity: 1, Server: Ragnarok, Twintania market price: 102497, URL: https://universalis.app/market/25052
+Item: 403 Bluespirit Handgonne, Price: 21759, Quantity: 1, Server: Lich, Twintania market price: 73999, URL: https://universalis.app/market/25955
+Item: 403 Pixie Cotton Robe of Healing, Price: 39900, Quantity: 1, Server: Shiva, Twintania market price: 99475, URL: https://universalis.app/market/25997
+Item: 409 Zonureskin Grimoire, Price: 24989, Quantity: 1, Server: Omega, Twintania market price: 99798, URL: https://universalis.app/market/26118
+Item: 409 Zonureskin Codex, Price: 34178, Quantity: 1, Server: Omega, Twintania market price: 87500, URL: https://universalis.app/market/26119
+Item: 409 Ovim Wool Tunic of Aiming, Price: 31390, Quantity: 1, Server: Zodiark, Twintania market price: 95000, URL: https://universalis.app/market/26145
+Item: 409 Zonureskin Fingerless Gloves of Healing, Price: 22994, Quantity: 1, Server: Louisoix, Twintania market price: 97495, URL: https://universalis.app/market/26158
+Item: 409 Ovim Wool Tunic of Casting, Price: 16800, Quantity: 1, Server: Zodiark, Twintania market price: 70000, URL: https://universalis.app/market/26163
+Item: 415 Swallowskin Gloves of Fending, Price: 31500, Quantity: 1, Server: Ragnarok, Twintania market price: 94419, URL: https://universalis.app/market/26288
+Item: 415 Swallowskin Gloves of Maiming, Price: 31500, Quantity: 1, Server: Cerberus, Twintania market price: 92499, URL: https://universalis.app/market/26294
+Item: 370 Bluespirit Scythe, Price: 29400, Quantity: 1, Server: Phoenix, Twintania market price: 85000, URL: https://universalis.app/market/27118
+Item: 330 Smilodonskin Gloves of Crafting, Price: 18900, Quantity: 1, Server: Zodiark, Twintania market price: 99420, URL: https://universalis.app/market/27163
+Item: 330 Brightlinen Bottoms of Gathering, Price: 17722, Quantity: 1, Server: Zodiark, Twintania market price: 79246, URL: https://universalis.app/market/27169
+Item: 330 Smilodonskin Shoes of Crafting, Price: 15622, Quantity: 1, Server: Zodiark, Twintania market price: 96499, URL: https://universalis.app/market/27165
+Item: 370 Pixie Cotton Apron of Crafting, Price: 26039, Quantity: 1, Server: Zodiark, Twintania market price: 95619, URL: https://universalis.app/market/27172
+Item: 330 Brightlinen Doublet Vest of Crafting, Price: 9952, Quantity: 1, Server: Zodiark, Twintania market price: 68494, URL: https://universalis.app/market/27162
+Item: 370 Pixie Cotton Breeches of Crafting, Price: 39638, Quantity: 1, Server: Spriggan, Twintania market price: 94991, URL: https://universalis.app/market/27174
+Item: 330 Smilodonskin Shoes of Gathering, Price: 17722, Quantity: 1, Server: Phoenix, Twintania market price: 97249, URL: https://universalis.app/market/27170
+Item: 400 Ovim Wool Turban of Gathering, Price: 25248, Quantity: 1, Server: Alpha, Twintania market price: 88700, URL: https://universalis.app/market/27186
+Item: 330 White Oak Ring, Price: 18900, Quantity: 1, Server: Spriggan, Twintania market price: 72381, URL: https://universalis.app/market/27205
+Item: 330 Smilodonskin Choker, Price: 27297, Quantity: 1, Server: Louisoix, Twintania market price: 99420, URL: https://universalis.app/market/27208
+Item: 330 Smilodonskin Earrings, Price: 8398, Quantity: 1, Server: Zodiark, Twintania market price: 99420, URL: https://universalis.app/market/27207
+Item: 330 Smilodonskin Wristband, Price: 10393, Quantity: 1, Server: Zodiark, Twintania market price: 65494, URL: https://universalis.app/market/27209
+Item: 1 Stuffed Clionid, Price: 10500, Quantity: 1, Server: Omega, Twintania market price: 75000, URL: https://universalis.app/market/27313
+Item: 395 Lover's Flower, Price: 200, Quantity: 5, Server: Omega, Twintania market price: 19667, URL: https://universalis.app/market/27414
+Item: 395 Sinspitter, Price: 1050, Quantity: 51, Server: Lich, Twintania market price: 20000, URL: https://universalis.app/market/27415
+Item: 403 Eulmore Butterfly, Price: 15749, Quantity: 4, Server: Phoenix, Twintania market price: 29999, URL: https://universalis.app/market/27423
+Item: 403 Red Hammerhead, Price: 893, Quantity: 5, Server: Shiva, Twintania market price: 17990, URL: https://universalis.app/market/27424
+Item: 403 Spotted Blue-eye, Price: 1260, Quantity: 1, Server: Cerberus, Twintania market price: 74488, URL: https://universalis.app/market/27468
+Item: 420 Toadhead, Price: 10500, Quantity: 1, Server: Spriggan, Twintania market price: 70004, URL: https://universalis.app/market/27481
+Item: 418 Deep Purple Coral, Price: 10499, Quantity: 3, Server: Lich, Twintania market price: 36998, URL: https://universalis.app/market/27495
+Item: 420 Aapoak, Price: 31500, Quantity: 1, Server: Shiva, Twintania market price: 95000, URL: https://universalis.app/market/27508
+Item: 415 Maneater Clam, Price: 5249, Quantity: 8, Server: Odin, Twintania market price: 12999, URL: https://universalis.app/market/27511
+Item: 395 Noblefish, Price: 252, Quantity: 19, Server: Moogle, Twintania market price: 8750, URL: https://universalis.app/market/27531
+Item: 409 Growth Formula Kappa, Price: 3035, Quantity: 30, Server: Omega, Twintania market price: 4898, URL: https://universalis.app/market/27778
+Item: 409 Scuroglow Aethersand, Price: 208, Quantity: 73, Server: Omega, Twintania market price: 999, URL: https://universalis.app/market/27812
+Item: 409 Chiaroglow Aethersand, Price: 73, Quantity: 92, Server: Omega, Twintania market price: 900, URL: https://universalis.app/market/27811
+Item: 409 Amber Cloves, Price: 105, Quantity: 99, Server: Louisoix, Twintania market price: 650, URL: https://universalis.app/market/27821
+Item: 430 Lemonade, Price: 630, Quantity: 50, Server: Phoenix, Twintania market price: 7499, URL: https://universalis.app/market/27880
+Item: 1 Mortal Instants Orchestrion Roll, Price: 39899, Quantity: 2, Server: Odin, Twintania market price: 94075, URL: https://universalis.app/market/27910
+Item: 440 The Horned King, Price: 10497, Quantity: 1, Server: Louisoix, Twintania market price: 74495, URL: https://universalis.app/market/28069
+Item: 440 The Unforgiven, Price: 11667, Quantity: 1, Server: Omega, Twintania market price: 82418, URL: https://universalis.app/market/28067
+Item: 415 Misplaced Mog Slippers, Price: 10499, Quantity: 1, Server: Cerberus, Twintania market price: 83500, URL: https://universalis.app/market/28142
+Item: 1 Stuffed Hraesvelgr, Price: 21101, Quantity: 1, Server: Phoenix, Twintania market price: 154000, URL: https://universalis.app/market/28141
+Item: 415 Eulmoran Chandelier, Price: 7140, Quantity: 1, Server: Odin, Twintania market price: 72949, URL: https://universalis.app/market/28128
+Item: 460 Facet Coat of Crafting, Price: 60899, Quantity: 1, Server: Odin, Twintania market price: 149994, URL: https://universalis.app/market/28473
+Item: 415 Lakeland Table, Price: 28350, Quantity: 1, Server: Louisoix, Twintania market price: 87991, URL: https://universalis.app/market/28638
+Item: 1 Greatwood Planter, Price: 79799, Quantity: 1, Server: Raiden, Twintania market price: 148879, URL: https://universalis.app/market/28635
+Item: 1 Painting of the Eulmoran Army Headquarters, Price: 10500, Quantity: 1, Server: Shiva, Twintania market price: 76249, URL: https://universalis.app/market/28670
+Item: 450 Pliable Glass Fiber, Price: 10490, Quantity: 4, Server: Lich, Twintania market price: 24500, URL: https://universalis.app/market/28715
+Item: 40 Skybuilders' Spring Water, Price: 263, Quantity: 99, Server: Phoenix, Twintania market price: 2161, URL: https://universalis.app/market/28774
+Item: 40 Skybuilders' Electrum Ore, Price: 735, Quantity: 99, Server: Omega, Twintania market price: 2500, URL: https://universalis.app/market/28771
+Item: 150 Skybuilders' Hardsilver Ore, Price: 525, Quantity: 71, Server: Odin, Twintania market price: 1699, URL: https://universalis.app/market/28777
+Item: 150 Skybuilders' Tea Leaves, Price: 105, Quantity: 99, Server: Shiva, Twintania market price: 1995, URL: https://universalis.app/market/28779
+Item: 290 Skybuilders' Durium Sand, Price: 473, Quantity: 99, Server: Ragnarok, Twintania market price: 981, URL: https://universalis.app/market/28788
+Item: 1 Replica Sky Pirate's Vest of Aiming, Price: 93444, Quantity: 1, Server: Omega, Twintania market price: 149994, URL: https://universalis.app/market/28824
+Item: 1 Replica Sky Pirate's Bottoms of Casting, Price: 62968, Quantity: 1, Server: Omega, Twintania market price: 199947, URL: https://universalis.app/market/28841
+Item: 460 The Jaws of Undeath, Price: 13545, Quantity: 1, Server: Phoenix, Twintania market price: 99999, URL: https://universalis.app/market/28925
+Item: 1 Moogle Round Table, Price: 21000, Quantity: 1, Server: Ragnarok, Twintania market price: 74500, URL: https://universalis.app/market/28963
+Item: 1 Amaurot Wall Lamp, Price: 46667, Quantity: 1, Server: Raiden, Twintania market price: 104997, URL: https://universalis.app/market/28972
+Item: 1 Azure Dragoon Portrait, Price: 91748, Quantity: 1, Server: Cerberus, Twintania market price: 145000, URL: https://universalis.app/market/28989
+Item: 1 Apron Rack, Price: 73500, Quantity: 1, Server: Sagittarius, Twintania market price: 129747, URL: https://universalis.app/market/28995
+Item: 480 Grade 3 Tincture of Strength, Price: 1161, Quantity: 64, Server: Sagittarius, Twintania market price: 2500, URL: https://universalis.app/market/29492
+Item: 440 Oddly Specific Cotton, Price: 839, Quantity: 26, Server: Spriggan, Twintania market price: 2794, URL: https://universalis.app/market/29666
+Item: 430 Ronkan Rocking Chair, Price: 30974, Quantity: 1, Server: Odin, Twintania market price: 83998, URL: https://universalis.app/market/29686
+Item: 20 Approved Grade 2 Skybuilders' Copper Sand, Price: 126, Quantity: 79, Server: Zodiark, Twintania market price: 1249, URL: https://universalis.app/market/29843
+Item: 40 Approved Grade 2 Skybuilders' Rock Salt, Price: 53, Quantity: 74, Server: Spriggan, Twintania market price: 999, URL: https://universalis.app/market/29848
+Item: 480 Ornate Neo-Ishgardian Top of Striking, Price: 49999, Quantity: 1, Server: Odin, Twintania market price: 1500000, URL: https://universalis.app/market/30037
+Item: 1 Order Yet Undeciphered Orchestrion Roll, Price: 30448, Quantity: 1, Server: Raiden, Twintania market price: 97072, URL: https://universalis.app/market/30267
+Item: 1 Fortemps Sofa, Price: 26248, Quantity: 1, Server: Spriggan, Twintania market price: 117999, URL: https://universalis.app/market/30417
+Item: 460 The Mother of All Pancakes, Price: 15412, Quantity: 1, Server: Omega, Twintania market price: 84997, URL: https://universalis.app/market/30438
+Item: 290 Tsukuyomi's Moonlit Shield, Price: 73499, Quantity: 1, Server: Lich, Twintania market price: 225500, URL: https://universalis.app/market/30826
+Item: 1 Forgotten Fragment of Resolve, Price: 4137, Quantity: 13, Server: Omega, Twintania market price: 15000, URL: https://universalis.app/market/30892
+Item: 1 Forgotten Fragment of Caprice, Price: 14702, Quantity: 4, Server: Phoenix, Twintania market price: 37749, URL: https://universalis.app/market/30899
+Item: 40 Approved Grade 3 Skybuilders' Sesame, Price: 105, Quantity: 99, Server: Sagittarius, Twintania market price: 649, URL: https://universalis.app/market/31237
+Item: 485 Oddly Specific Sap, Price: 2100, Quantity: 28, Server: Spriggan, Twintania market price: 4429, URL: https://universalis.app/market/31123
+Item: 1 Calming Checkered Parasol, Price: 99744, Quantity: 1, Server: Zodiark, Twintania market price: 154975, URL: https://universalis.app/market/31324
+Item: 1 Plum Paper Parasol, Price: 59849, Quantity: 1, Server: Shiva, Twintania market price: 242445, URL: https://universalis.app/market/31322
+Item: 510 Exarchic Shoes of Casting, Price: 5249, Quantity: 1, Server: Spriggan, Twintania market price: 76694, URL: https://universalis.app/market/31871
+Item: 510 Exarchic Ring of Fending, Price: 21000, Quantity: 1, Server: Zodiark, Twintania market price: 74471, URL: https://universalis.app/market/31888
+Item: 510 Smoked Chicken, Price: 525, Quantity: 99, Server: Ragnarok, Twintania market price: 2275, URL: https://universalis.app/market/31901
+Item: 490 Henodus Grandis, Price: 9450, Quantity: 1, Server: Louisoix, Twintania market price: 150000, URL: https://universalis.app/market/32051
+Item: 490 Sunken Tome, Price: 10499, Quantity: 1, Server: Cerberus, Twintania market price: 174999, URL: https://universalis.app/market/32052
+Item: 490 The Ondotaker, Price: 15750, Quantity: 1, Server: Ragnarok, Twintania market price: 140000, URL: https://universalis.app/market/32054
+Item: 1 Elemental Wheel, Price: 84000, Quantity: 1, Server: Sagittarius, Twintania market price: 147687, URL: https://universalis.app/market/32232
+Item: 1 Royal Lion, Price: 35700, Quantity: 1, Server: Omega, Twintania market price: 177394, URL: https://universalis.app/market/32223
+Item: 1 Parkside Tree, Price: 7000, Quantity: 1, Server: Phoenix, Twintania market price: 63990, URL: https://universalis.app/market/32248
+Item: 1 Carnation Seeds, Price: 52, Quantity: 99, Server: Shiva, Twintania market price: 1000, URL: https://universalis.app/market/32812
+Item: 510 Grade 4 Strength Alkahest, Price: 1088, Quantity: 80, Server: Shiva, Twintania market price: 2850, URL: https://universalis.app/market/32939
+Item: 1 The Black Wolf Stalks Again Orchestrion Roll, Price: 15750, Quantity: 1, Server: Louisoix, Twintania market price: 92970, URL: https://universalis.app/market/33110
+Item: 490 Listracanthus, Price: 31500, Quantity: 1, Server: Odin, Twintania market price: 94375, URL: https://universalis.app/market/33239
+Item: 1 Akadaemia Prospectuses, Price: 68837, Quantity: 1, Server: Cerberus, Twintania market price: 175949, URL: https://universalis.app/market/33274
+Item: 430 Mounted Dinosaur Skull, Price: 29295, Quantity: 1, Server: Louisoix, Twintania market price: 244994, URL: https://universalis.app/market/33293
+Item: 490 Aster Trivi, Price: 2100, Quantity: 1, Server: Omega, Twintania market price: 92460, URL: https://universalis.app/market/33316
+Item: 490 Python Discus, Price: 1050, Quantity: 1, Server: Spriggan, Twintania market price: 150001, URL: https://universalis.app/market/33317
+Item: 490 Deephaunt, Price: 10185, Quantity: 1, Server: Cerberus, Twintania market price: 200000, URL: https://universalis.app/market/33323
+Item: 490 Shadeshifter, Price: 4199, Quantity: 1, Server: Lich, Twintania market price: 87500, URL: https://universalis.app/market/33319
+Item: 490 Mora Tecta, Price: 5242, Quantity: 10, Server: Zodiark, Twintania market price: 12369, URL: https://universalis.app/market/33325
+Item: 490 Golden Pipira, Price: 10490, Quantity: 1, Server: Phoenix, Twintania market price: 144500, URL: https://universalis.app/market/33324
+Item: 490 Steel Razor, Price: 31495, Quantity: 1, Server: Cerberus, Twintania market price: 100001, URL: https://universalis.app/market/33318
+Item: 490 Dammroen Herring, Price: 15745, Quantity: 1, Server: Ragnarok, Twintania market price: 199999, URL: https://universalis.app/market/33321
+Item: 490 Maru Crab, Price: 10395, Quantity: 1, Server: Louisoix, Twintania market price: 159000, URL: https://universalis.app/market/33326
+Item: 1 Magitek Predator F1, Price: 63000, Quantity: 1, Server: Ragnarok, Twintania market price: 299999, URL: https://universalis.app/market/33693
+Item: 560 Gatherer's Grasp Materia X, Price: 617, Quantity: 81, Server: Moogle, Twintania market price: 1247, URL: https://universalis.app/market/33937
+Item: 560 Gatherer's Guile Materia X, Price: 3148, Quantity: 20, Server: Lich, Twintania market price: 7998, URL: https://universalis.app/market/33936
+Item: 515 High Durium Cleavers, Price: 20989, Quantity: 1, Server: Ragnarok, Twintania market price: 79890, URL: https://universalis.app/market/34085
+Item: 515 High Durium Guillotine, Price: 10500, Quantity: 1, Server: Alpha, Twintania market price: 84885, URL: https://universalis.app/market/34086
+Item: 515 High Durium Manatrigger, Price: 20444, Quantity: 1, Server: Phoenix, Twintania market price: 116499, URL: https://universalis.app/market/34095
+Item: 515 High Durium Milpreves, Price: 26250, Quantity: 1, Server: Cerberus, Twintania market price: 101500, URL: https://universalis.app/market/34097
+Item: 515 High Durium Tathlums, Price: 26250, Quantity: 1, Server: Moogle, Twintania market price: 87878, URL: https://universalis.app/market/34096
+Item: 515 Gajaskin Coat of Fending, Price: 723, Quantity: 1, Server: Ragnarok, Twintania market price: 66249, URL: https://universalis.app/market/34101
+Item: 515 Darkhempen Trousers of Fending, Price: 42000, Quantity: 1, Server: Zodiark, Twintania market price: 92857, URL: https://universalis.app/market/34103
+Item: 515 Darkhempen Skirt of Scouting, Price: 43575, Quantity: 1, Server: Phoenix, Twintania market price: 133499, URL: https://universalis.app/market/34123
+Item: 515 Darkhempen Bottoms of Healing, Price: 20947, Quantity: 1, Server: Spriggan, Twintania market price: 76349, URL: https://universalis.app/market/34128
+Item: 525 High Durium Bhuj, Price: 36750, Quantity: 1, Server: Omega, Twintania market price: 91890, URL: https://universalis.app/market/34232
+Item: 525 High Durium Uchigatana, Price: 18900, Quantity: 1, Server: Cerberus, Twintania market price: 71995, URL: https://universalis.app/market/34243
+Item: 525 Pewter Rod, Price: 30450, Quantity: 1, Server: Zodiark, Twintania market price: 97998, URL: https://universalis.app/market/34239
+Item: 533 Phrygian Wings, Price: 41998, Quantity: 1, Server: Phantom, Twintania market price: 154498, URL: https://universalis.app/market/34397
+Item: 533 Snow Linen Bottoms of Striking, Price: 3150, Quantity: 1, Server: Spriggan, Twintania market price: 71797, URL: https://universalis.app/market/34413
+Item: 533 Phrygian Ear Cuffs of Fending, Price: 25199, Quantity: 1, Server: Phoenix, Twintania market price: 77714, URL: https://universalis.app/market/34435
+Item: 533 Bismuth Ring of Casting, Price: 5250, Quantity: 1, Server: Cerberus, Twintania market price: 72500, URL: https://universalis.app/market/34454
+Item: 539 Kumbhiraskin Grimoire, Price: 25200, Quantity: 1, Server: Ragnarok, Twintania market price: 97499, URL: https://universalis.app/market/34540
+Item: 539 Manganese Armor of the Behemoth King, Price: 19950, Quantity: 1, Server: Louisoix, Twintania market price: 86494, URL: https://universalis.app/market/34551
+Item: 539 Manganese Gaiters of the Falling Dragon, Price: 35175, Quantity: 1, Server: Zodiark, Twintania market price: 85500, URL: https://universalis.app/market/34574
+Item: 539 Scarlet Moko Chausses of the White Griffin, Price: 3990, Quantity: 1, Server: Moogle, Twintania market price: 57857, URL: https://universalis.app/market/34578
+Item: 539 Blue Zircon Earrings of Fending, Price: 6215, Quantity: 1, Server: Cerberus, Twintania market price: 59108, URL: https://universalis.app/market/34585
+Item: 539 Blue Zircon Earrings of Slaying, Price: 30974, Quantity: 1, Server: Alpha, Twintania market price: 86662, URL: https://universalis.app/market/34586
+Item: 545 Ophiotauroskin Magitek Codex, Price: 26250, Quantity: 1, Server: Phantom, Twintania market price: 88971, URL: https://universalis.app/market/34691
+Item: 545 Chondrite Top of Maiming, Price: 21000, Quantity: 1, Server: Sagittarius, Twintania market price: 72491, URL: https://universalis.app/market/34706
+Item: 545 Chondrite Gloves of Aiming, Price: 34109, Quantity: 1, Server: Moogle, Twintania market price: 89445, URL: https://universalis.app/market/34717
+Item: 545 Chondrite Magitek Tuck, Price: 43049, Quantity: 1, Server: Moogle, Twintania market price: 99939, URL: https://universalis.app/market/34694
+Item: 545 Chondrite Top of Fending, Price: 38850, Quantity: 1, Server: Omega, Twintania market price: 107499, URL: https://universalis.app/market/34701
+Item: 545 Ophiotauroskin Top of Casting, Price: 35695, Quantity: 1, Server: Cerberus, Twintania market price: 98899, URL: https://universalis.app/market/34731
+Item: 545 Star Quartz Ring of Fending, Price: 18087, Quantity: 1, Server: Shiva, Twintania market price: 69998, URL: https://universalis.app/market/34750
+Item: 580 Classical Signifer's Chiton, Price: 21000, Quantity: 1, Server: Phoenix, Twintania market price: 81995, URL: https://universalis.app/market/35071
+Item: 580 Classical Ring of Aiming, Price: 18847, Quantity: 1, Server: Sagittarius, Twintania market price: 160000, URL: https://universalis.app/market/35092
+Item: 540 Manganese Chocobo Frypan, Price: 5250, Quantity: 1, Server: Omega, Twintania market price: 98999, URL: https://universalis.app/market/35369
+Item: 480 Darkhempen Dogi, Price: 41139, Quantity: 1, Server: Moogle, Twintania market price: 144250, URL: https://universalis.app/market/35405
+Item: 520 Snow Linen Bottoms of Crafting, Price: 36750, Quantity: 1, Server: Phoenix, Twintania market price: 98999, URL: https://universalis.app/market/35417
+Item: 540 Kumbhiraskin Gloves of Crafting, Price: 21000, Quantity: 1, Server: Phoenix, Twintania market price: 72246, URL: https://universalis.app/market/35426
+Item: 540 Scarlet Moko Beret of Gathering, Price: 20948, Quantity: 1, Server: Sagittarius, Twintania market price: 89737, URL: https://universalis.app/market/35429
+Item: 540 Imitation Wooden Skylight, Price: 34650, Quantity: 1, Server: Phoenix, Twintania market price: 88898, URL: https://universalis.app/market/35575
+Item: 540 Pendant Wall Light, Price: 33453, Quantity: 1, Server: Cerberus, Twintania market price: 95986, URL: https://universalis.app/market/35577
+Item: 403 Bluespirit Sickle, Price: 16509, Quantity: 1, Server: Sagittarius, Twintania market price: 68011, URL: https://universalis.app/market/35765
+Item: 385 Deepgold War Scythe, Price: 9345, Quantity: 1, Server: Omega, Twintania market price: 83999, URL: https://universalis.app/market/35760
+Item: 1 Red Triteleia Earring, Price: 4192, Quantity: 1, Server: Sagittarius, Twintania market price: 67450, URL: https://universalis.app/market/35991
+Item: 560 Baked Alien Soup, Price: 2096, Quantity: 18, Server: Omega, Twintania market price: 5061, URL: https://universalis.app/market/36063
+Item: 580 Pumpkin Potage, Price: 1785, Quantity: 30, Server: Moogle, Twintania market price: 3499, URL: https://universalis.app/market/36070
+Item: 580 Grade 6 Tincture of Vitality, Price: 382, Quantity: 99, Server: Cerberus, Twintania market price: 999, URL: https://universalis.app/market/36111
+Item: 1 Paladin's Mighty Levin Arms, Price: 39770, Quantity: 1, Server: Shiva, Twintania market price: 102494, URL: https://universalis.app/market/36122
+Item: 1 Paladin's Fiend Arms, Price: 47250, Quantity: 1, Server: Shiva, Twintania market price: 139998, URL: https://universalis.app/market/36125
+Item: 540 Half-moon Betta, Price: 3040, Quantity: 8, Server: Phoenix, Twintania market price: 26995, URL: https://universalis.app/market/36444
+Item: 510 Dark Crown, Price: 1890, Quantity: 4, Server: Louisoix, Twintania market price: 19500, URL: https://universalis.app/market/36460
+Item: 495 Onihige, Price: 420, Quantity: 33, Server: Phantom, Twintania market price: 5727, URL: https://universalis.app/market/36549
+Item: 520 Crown Fish, Price: 524, Quantity: 19, Server: Cerberus, Twintania market price: 4999, URL: https://universalis.app/market/36557
+Item: 534 Pale Panther, Price: 1050, Quantity: 67, Server: Ragnarok, Twintania market price: 5000, URL: https://universalis.app/market/36585
+Item: 570 Hippo Frog, Price: 20999, Quantity: 3, Server: Omega, Twintania market price: 89833, URL: https://universalis.app/market/36682
+Item: 590 Pactmaker's Arkasodara Frypan, Price: 94238, Quantity: 1, Server: Alpha, Twintania market price: 199999, URL: https://universalis.app/market/36694
+Item: 570 Thavnairian Calamari, Price: 1961, Quantity: 28, Server: Spriggan, Twintania market price: 4448, URL: https://universalis.app/market/36686
+Item: 590 Pactmaker's Mortar, Price: 78750, Quantity: 1, Server: Sagittarius, Twintania market price: 200000, URL: https://universalis.app/market/36704
+Item: 590 Pactmaker's Awl, Price: 85998, Quantity: 1, Server: Alpha, Twintania market price: 162500, URL: https://universalis.app/market/36702
+Item: 590 Pactmaker's Culinary Knife, Price: 52331, Quantity: 1, Server: Sagittarius, Twintania market price: 129999, URL: https://universalis.app/market/36705
+Item: 590 Pactmaker's Pliers, Price: 52500, Quantity: 1, Server: Lich, Twintania market price: 189788, URL: https://universalis.app/market/36700
+Item: 590 Pactmaker's Grinding Wheel, Price: 94238, Quantity: 1, Server: Alpha, Twintania market price: 200000, URL: https://universalis.app/market/36701
+Item: 590 Pactmaker's Sledgehammer, Price: 81899, Quantity: 1, Server: Phoenix, Twintania market price: 141998, URL: https://universalis.app/market/36706
+Item: 590 Pactmaker's File, Price: 94238, Quantity: 1, Server: Alpha, Twintania market price: 200000, URL: https://universalis.app/market/36699
+Item: 590 Pactmaker's Creasing Knife, Price: 93776, Quantity: 1, Server: Lich, Twintania market price: 209000, URL: https://universalis.app/market/36691
+Item: 590 Pactmaker's Sarouel of Crafting, Price: 71933, Quantity: 1, Server: Sagittarius, Twintania market price: 130000, URL: https://universalis.app/market/36711
+Item: 590 Pactmaker's Coat of Gathering, Price: 93870, Quantity: 1, Server: Louisoix, Twintania market price: 179999, URL: https://universalis.app/market/36714
+Item: 590 Pactmaker's Breeches of Gathering, Price: 97650, Quantity: 1, Server: Louisoix, Twintania market price: 199995, URL: https://universalis.app/market/36716
+Item: 150 Highland Cottage Roof (Stone), Price: 1050, Quantity: 1, Server: Shiva, Twintania market price: 119994, URL: https://universalis.app/market/36864
+Item: 590 Pactmaker's Pumps of Crafting, Price: 59215, Quantity: 1, Server: Sagittarius, Twintania market price: 140000, URL: https://universalis.app/market/36712
+Item: 150 Highland Composite Chimney, Price: 8293, Quantity: 1, Server: Shiva, Twintania market price: 93999, URL: https://universalis.app/market/36892
+Item: 150 Highland Stone Wall, Price: 21000, Quantity: 1, Server: Odin, Twintania market price: 99602, URL: https://universalis.app/market/36901
+Item: 150 Highland Fence, Price: 33600, Quantity: 1, Server: Shiva, Twintania market price: 84886, URL: https://universalis.app/market/36902
+Item: 1 Leveilleur Estate Painting, Price: 5250, Quantity: 10, Server: Spriggan, Twintania market price: 33999, URL: https://universalis.app/market/37085
+Item: 150 Highland Potting Fence, Price: 61950, Quantity: 1, Server: Zodiark, Twintania market price: 244500, URL: https://universalis.app/market/36903
+Item: 1 Watcher's Palace Painting, Price: 4200, Quantity: 1, Server: Shiva, Twintania market price: 59499, URL: https://universalis.app/market/37125
+Item: 180 Sickle of the Round, Price: 73499, Quantity: 1, Server: Odin, Twintania market price: 124681, URL: https://universalis.app/market/37292
+Item: 180 Gunblade of the Round, Price: 99750, Quantity: 1, Server: Ragnarok, Twintania market price: 149902, URL: https://universalis.app/market/37289
+Item: 180 War Quoits of the Round, Price: 73500, Quantity: 1, Server: Odin, Twintania market price: 139956, URL: https://universalis.app/market/37290
+Item: 180 Milpreves of the Round, Price: 46967, Quantity: 1, Server: Moogle, Twintania market price: 149859, URL: https://universalis.app/market/37291
+Item: 290 Susano's Rapturous War Axe, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 169841, URL: https://universalis.app/market/37319
+Item: 290 Susano's Rapturous Knuckles, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 125183, URL: https://universalis.app/market/37318
+Item: 290 Susano's Rapturous Pike, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 124274, URL: https://universalis.app/market/37320
+Item: 290 Susano's Rapturous Greatsword, Price: 63000, Quantity: 1, Server: Zodiark, Twintania market price: 129584, URL: https://universalis.app/market/37323
+Item: 290 Susano's Rapturous Revolver, Price: 31498, Quantity: 1, Server: Lich, Twintania market price: 112341, URL: https://universalis.app/market/37324
+Item: 290 Susano's Rapturous Kunai, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 247494, URL: https://universalis.app/market/37322
+Item: 1 White Byregotia Choker, Price: 38849, Quantity: 1, Server: Omega, Twintania market price: 99995, URL: https://universalis.app/market/37299
+Item: 290 Susano's Rapturous Tachi, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 126841, URL: https://universalis.app/market/37330
+Item: 290 Susano's Rapturous Codex, Price: 31498, Quantity: 1, Server: Lich, Twintania market price: 109684, URL: https://universalis.app/market/37328
+Item: 290 Susano's Rapturous Grimoire, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 123842, URL: https://universalis.app/market/37327
+Item: 290 Susano's Rapturous Rapier, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 123999, URL: https://universalis.app/market/37331
+Item: 290 Susano's Rapturous Ephemeris, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 119684, URL: https://universalis.app/market/37329
+Item: 290 Susano's Rapturous Cane, Price: 53529, Quantity: 1, Server: Moogle, Twintania market price: 118999, URL: https://universalis.app/market/37325
+Item: 560 Indoor Marble Fountain, Price: 42000, Quantity: 1, Server: Shiva, Twintania market price: 242450, URL: https://universalis.app/market/37349
+Item: 290 Susano's Rapturous Rod, Price: 52499, Quantity: 1, Server: Lich, Twintania market price: 118999, URL: https://universalis.app/market/37326
+Item: 1 Susano's Rapturous Paladin Arms, Price: 41132, Quantity: 1, Server: Odin, Twintania market price: 133586, URL: https://universalis.app/market/37333
+Item: 1 The Final Day Orchestrion Roll, Price: 88196, Quantity: 1, Server: Lich, Twintania market price: 163590, URL: https://universalis.app/market/37412
+Item: 1 Blue Blossom Parasol, Price: 38850, Quantity: 1, Server: Cerberus, Twintania market price: 98949, URL: https://universalis.app/market/37485
+Item: 610 Rinascita Greatsword, Price: 68250, Quantity: 1, Server: Lich, Twintania market price: 348732, URL: https://universalis.app/market/37748
+Item: 610 Rinascita Culverin, Price: 74550, Quantity: 1, Server: Raiden, Twintania market price: 169714, URL: https://universalis.app/market/37749
+Item: 610 Rinascita Composite Bow, Price: 63732, Quantity: 1, Server: Lich, Twintania market price: 147999, URL: https://universalis.app/market/37746
+Item: 610 Rinascita Codex, Price: 68717, Quantity: 1, Server: Lich, Twintania market price: 246416, URL: https://universalis.app/market/37753
+Item: 610 Rinascita Knuckles, Price: 73462, Quantity: 1, Server: Raiden, Twintania market price: 336445, URL: https://universalis.app/market/37743
+Item: 610 Rinascita Index, Price: 91174, Quantity: 1, Server: Odin, Twintania market price: 219451, URL: https://universalis.app/market/37752
+Item: 610 Rinascita Samurai Blade, Price: 71082, Quantity: 1, Server: Lich, Twintania market price: 186623, URL: https://universalis.app/market/37755
+Item: 610 Rinascita Manatrigger, Price: 73491, Quantity: 1, Server: Raiden, Twintania market price: 173031, URL: https://universalis.app/market/37757
+Item: 610 Rinascita War Quoits, Price: 82854, Quantity: 1, Server: Omega, Twintania market price: 226806, URL: https://universalis.app/market/37758
+Item: 610 Rinascita Kite Shield, Price: 36619, Quantity: 1, Server: Odin, Twintania market price: 149912, URL: https://universalis.app/market/37761
+Item: 610 Rinascita Cuirass of Maiming, Price: 66077, Quantity: 1, Server: Phoenix, Twintania market price: 195033, URL: https://universalis.app/market/37768
+Item: 610 Rinascita Helm of Maiming, Price: 73439, Quantity: 1, Server: Odin, Twintania market price: 181614, URL: https://universalis.app/market/37767
+Item: 610 Rinascita Vambraces of Maiming, Price: 62868, Quantity: 1, Server: Omega, Twintania market price: 413893, URL: https://universalis.app/market/37769
+Item: 610 Rinascita Jacket of Striking, Price: 63710, Quantity: 1, Server: Lich, Twintania market price: 224034, URL: https://universalis.app/market/37773
+Item: 610 Rinascita Hood of Striking, Price: 53112, Quantity: 1, Server: Lich, Twintania market price: 393905, URL: https://universalis.app/market/37772
+Item: 610 Rinascita Poleyns of Striking, Price: 83943, Quantity: 1, Server: Moogle, Twintania market price: 358076, URL: https://universalis.app/market/37775
+Item: 610 Rinascita Shoes of Striking, Price: 51007, Quantity: 1, Server: Odin, Twintania market price: 141909, URL: https://universalis.app/market/37776
+Item: 610 Rinascita Beret of Aiming, Price: 49018, Quantity: 1, Server: Lich, Twintania market price: 184286, URL: https://universalis.app/market/37777
+Item: 610 Rinascita Jacket of Aiming, Price: 60578, Quantity: 1, Server: Lich, Twintania market price: 218139, URL: https://universalis.app/market/37778
+Item: 610 Rinascita Gloves of Aiming, Price: 49064, Quantity: 1, Server: Lich, Twintania market price: 328945, URL: https://universalis.app/market/37779
+Item: 610 Rinascita Poleyns of Aiming, Price: 84000, Quantity: 1, Server: Raiden, Twintania market price: 339534, URL: https://universalis.app/market/37780
+Item: 610 Rinascita Poleyns of Scouting, Price: 85424, Quantity: 1, Server: Odin, Twintania market price: 210511, URL: https://universalis.app/market/37785
+Item: 610 Rinascita Hood of Scouting, Price: 52482, Quantity: 1, Server: Phantom, Twintania market price: 229901, URL: https://universalis.app/market/37782
+Item: 610 Rinascita Sabatons of Scouting, Price: 62550, Quantity: 1, Server: Raiden, Twintania market price: 299960, URL: https://universalis.app/market/37786
+Item: 610 Rinascita Hood of Casting, Price: 53767, Quantity: 1, Server: Lich, Twintania market price: 217677, URL: https://universalis.app/market/37792
+Item: 610 Rinascita Gloves of Healing, Price: 57323, Quantity: 1, Server: Omega, Twintania market price: 126990, URL: https://universalis.app/market/37789
+Item: 610 Rinascita Earring of Slaying, Price: 59566, Quantity: 1, Server: Cerberus, Twintania market price: 114433, URL: https://universalis.app/market/37798
+Item: 610 Rinascita Earring of Aiming, Price: 47250, Quantity: 1, Server: Odin, Twintania market price: 292922, URL: https://universalis.app/market/37799
+Item: 610 Rinascita Coat of Casting, Price: 94486, Quantity: 1, Server: Raiden, Twintania market price: 199552, URL: https://universalis.app/market/37793
+Item: 610 Rinascita Poleyns of Casting, Price: 82525, Quantity: 1, Server: Omega, Twintania market price: 389966, URL: https://universalis.app/market/37795
+Item: 610 Rinascita Necklace of Aiming, Price: 42384, Quantity: 1, Server: Lich, Twintania market price: 155439, URL: https://universalis.app/market/37804
+Item: 610 Rinascita Earring of Casting, Price: 37386, Quantity: 1, Server: Lich, Twintania market price: 298766, URL: https://universalis.app/market/37801
+Item: 610 Rinascita Necklace of Slaying, Price: 55650, Quantity: 1, Server: Odin, Twintania market price: 119101, URL: https://universalis.app/market/37803
+Item: 610 Rinascita Ring of Slaying, Price: 42342, Quantity: 1, Server: Cerberus, Twintania market price: 113736, URL: https://universalis.app/market/37813
+Item: 610 Rinascita Bracelet of Aiming, Price: 47239, Quantity: 1, Server: Spriggan, Twintania market price: 212383, URL: https://universalis.app/market/37809
+Item: 610 Rinascita Ring of Casting, Price: 42342, Quantity: 1, Server: Cerberus, Twintania market price: 133975, URL: https://universalis.app/market/37816
+Item: 610 Rinascita Ring of Aiming, Price: 31842, Quantity: 1, Server: Cerberus, Twintania market price: 215414, URL: https://universalis.app/market/37814
+Item: 610 Grade 7 Tincture of Vitality, Price: 917, Quantity: 59, Server: Louisoix, Twintania market price: 2602, URL: https://universalis.app/market/37842
+Item: 600 Greatsword Snook, Price: 92925, Quantity: 1, Server: Cerberus, Twintania market price: 202645, URL: https://universalis.app/market/37845
+Item: 600 Bigcuda, Price: 26248, Quantity: 1, Server: Moogle, Twintania market price: 89780, URL: https://universalis.app/market/37848
+Item: 1 Lawless Enforcer's Jacket, Price: 41883, Quantity: 1, Server: Louisoix, Twintania market price: 109745, URL: https://universalis.app/market/38244
+Item: 1 Lawless Enforcer's Hat, Price: 31503, Quantity: 1, Server: Zodiark, Twintania market price: 89746, URL: https://universalis.app/market/38243
+Item: 1 Lawless Enforcer's Shoes, Price: 28353, Quantity: 1, Server: Zodiark, Twintania market price: 101499, URL: https://universalis.app/market/38247
+Item: 1 Magicked Prism (Korpokkur Noggin), Price: 2520, Quantity: 9, Server: Louisoix, Twintania market price: 8750, URL: https://universalis.app/market/38428
+Item: 1 Battle with the Four Fiends (Buried Memory) Orchestrion Roll, Price: 27299, Quantity: 1, Server: Alpha, Twintania market price: 82488, URL: https://universalis.app/market/38629
+Item: 600 Earthbreak Aethersand, Price: 1467, Quantity: 68, Server: Cerberus, Twintania market price: 2500, URL: https://universalis.app/market/38936
+Item: 1 Salon Server's Vest, Price: 94423, Quantity: 1, Server: Spriggan, Twintania market price: 149713, URL: https://universalis.app/market/39309
+Item: 1 Salon Server's Gloves, Price: 64987, Quantity: 1, Server: Ragnarok, Twintania market price: 243475, URL: https://universalis.app/market/39310
+Item: 620 Smaller Water Otter Fountain Hardware, Price: 63000, Quantity: 1, Server: Phoenix, Twintania market price: 359478, URL: https://universalis.app/market/39243
+Item: 620 Pure Igneous Glioaether, Price: 209, Quantity: 44, Server: Phoenix, Twintania market price: 2396, URL: https://universalis.app/market/39239
+Item: 1 Salon Server's Skirt, Price: 52499, Quantity: 1, Server: Louisoix, Twintania market price: 177223, URL: https://universalis.app/market/39315
+Item: 560 Far Eastern Stained Crystal Roundel, Price: 31080, Quantity: 1, Server: Phoenix, Twintania market price: 104499, URL: https://universalis.app/market/39384
+Item: 1 Blue Morning Glories, Price: 519, Quantity: 1, Server: Lich, Twintania market price: 103935, URL: https://universalis.app/market/39462
+Item: 1 Magicked Prism (Faux Fox Face), Price: 704, Quantity: 20, Server: Alpha, Twintania market price: 5000, URL: https://universalis.app/market/39501
